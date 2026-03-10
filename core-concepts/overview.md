@@ -43,14 +43,14 @@ A **Match** node simply identifies a recognised _Subject_ value.
 Matches evaluate the value in the subject cell and decide whether the rule continues.
 
 Matches can use basic wildcards for batch matching.
-- _e.g. PL* to match PLATE8*200_
+- _e.g. `PL*` to match `PLATE8*200`_
 
 Matches can also use regex for complex matching.
-- _e.g. ^(PLATE)(\d{1,2})\*(\d{2,4})$ to match PLATE10*200 and return 10 and 200 for use in conditions_
+- _e.g. `^(PLATE)(\d{1,2})\*(\d{2,4})$` to match `PLATE10*200` and return `10` and `200` for use in conditions_
 
 Matches are a container for a collection of _Target_ nodes, which are run on a successful match of the subject cell.
 
-See: `match.md`
+See: [Match](match.md)
 
 ---
 
@@ -62,7 +62,7 @@ Target nodes have several methods to determine how a cell is audited, and provid
 
 Target nodes can compare the value of its cell against a list of acceptable strings, a range of acceptable numbers, comparisons against other cells or direct checks against being empty/not empty.
 
-See: `target.md`
+See: `target.md` *coming soon*
 
 ---
 
@@ -72,9 +72,9 @@ A **Condition** is a way to limit a Target node to only run under certain condit
 
 This is to allow several Target nodes for the *same cell*, but are instructed to run under different conditions.
 
-For example, available stock lengths of a profile may be dependent on the profile depth, UB200*18 vs UB310*40. By using a different condition under each Target node, you can control which max length rules applies to which profile depth.
+For example, available stock lengths of a profile may be dependent on the profile depth, `UB200*18` vs `UB310*40`. By using a different condition under each Target node, you can control which max length rules applies to which profile depth.
 
-See: `condition.md`
+See: `condition.md` *coming soon*
 
 ---
 
@@ -96,12 +96,12 @@ Target: LENGTH_NET, max 12000
 In this example:
 
 - The subject PROFILE will try to match the profile of two parts.
-- The match detects a UB310\*40 and a UB200\*18
+- The match detects a `UB310*40` and a `UB200*18`
 - The first target applies a max length of 18000
-  - The condition only applies it to the UB310\*40 (matchNumber[0]: 310 > 200)
+  - The condition only applies it to the `UB310*40` (matchNumber[0]: 310 > 200)
   - If the length is <= 18000, it gets flagged OKAY, otherwise it gets flagged ERROR
 - The second target applies a max length of 12000
-  - The condition only applies it to the UB200\*18 (matchNUmber[0]: 200 <= 200)
+  - The condition only applies it to the `UB200*18` (matchNUmber[0]: 200 <= 200)
   - If the length is <= 12000, it gets flagged OKAY, otherwise it gets flagged ERROR
 
 ---
