@@ -127,6 +127,16 @@ A useful regex building tool is available at [regex101.com](https://regex101.com
 
 ---
 
+## Display Name
+
+The Match *DisplayName* is an optional field so node text displays something more user-friendly than the pattern string.
+
+If DisplayName text is empty, a node will display the Pattern text. In the case of regex patterns, this is not always ideal.
+
+You can enter text into the DisplayName and it will update the text in the node without affecting the match pattern.
+
+---
+
 ## Target Execution
 
 Each Match node contains a collection of **Target nodes**.
