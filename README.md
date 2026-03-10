@@ -8,7 +8,7 @@ This repository contains documentation and examples for **ObChecked**.
 
 - [Overview](overview.md)
 - [Getting Started](getting-started.md)
-- Core Concepts
+- [Core Concepts](core-concepts/overview.md)
 - Feature Reference
 - Examples
 - Troubleshooting
