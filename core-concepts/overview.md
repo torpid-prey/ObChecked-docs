@@ -14,6 +14,8 @@ Understanding how these nodes work together is the key to building effective aud
 
 ![Condition editor](../screenshots/audit-node-structure.png)
 
+*Audit Definition form showing an example of each node in sequence.*
+
 ---
 
 ## Group
