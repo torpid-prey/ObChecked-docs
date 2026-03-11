@@ -132,6 +132,10 @@ This means that nearly any property accessible in a Tekla template can also be d
 
 Custom properties defined by users or company standards can therefore be included in the grid.
 
+![Main Menu](screenshots/main-context-menu.png)
+
+*Access all properties via the main menu in the bottom right corner*
+
 ---
 
 ## Flagging and Severity Levels
