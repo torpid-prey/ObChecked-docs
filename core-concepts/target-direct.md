@@ -29,8 +29,6 @@ If the cell contains any value, the **Otherwise** flag is applied.
 
 This check is typically used when a property **should** be empty.
 
-*e.g. `PHASE.OTHERS` is used to display associated phases that differ to the phase of the part. This value should be empty. If it contains phases, it means child objects (cuts/welds) or father components are in a different phase to the part itself, and should be corrected.*
-
 ---
 
 ### CellValueNotEmpty
@@ -64,6 +62,35 @@ If the orientation combination is valid, the **Pass** flag is applied.
 If the configuration does not match the expected rotation rules for the current Project North direction, the **Otherwise** flag is applied.
 
 This rule helps ensure that assembly marks appear in the expected position relative to the structure.
+
+---
+
+### Example: PHASE.OTHERS
+
+In some cases a column may intentionally be empty under normal conditions.
+
+For example, the `PHASE.OTHERS` property reports phase numbers that differ from the main part.  
+This may include:
+
+- phases of cuts or welds applied to the part
+- phases of parent components
+- phases of assembly main parts
+
+Under normal circumstances, these values should match the part phase and the `PHASE.OTHERS` field should therefore remain empty.
+
+If a value appears in `PHASE.OTHERS`, it indicates that conflicting phases exist within the assembly and may require correction.
+
+An audit rule can therefore be configured to ensure this column remains empty:
+
+```
+TargetColumn: PHASE.OTHERS
+Type: Direct
+DirectID: CellValueEmpty
+Pass: Okay
+Otherwise: Error
+```
+
+This will flag any part where conflicting phase information is detected.
 
 ---
 
