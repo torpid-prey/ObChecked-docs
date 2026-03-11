@@ -11,6 +11,10 @@ This repository contains documentation and examples for **ObChecked**.
 - [Core Concepts](core-concepts/overview.md)
   - [Subject Node](core-concepts/subject.md)
   - [Match Node](core-concepts/match.md)
+  - [Target Node](core-concepts/target.md)
+    - [StringCases](core-concepts/target-stringcases.md)
+    - [NumericBands](core-concepts/target-numericbands.md)
+    - [StringCompare](core-concepts/target-stringcompare.md)
 - Feature Reference
 - Examples
 - Troubleshooting
