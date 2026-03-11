@@ -16,6 +16,7 @@ This repository contains documentation and examples for **ObChecked**.
     - [NumericBands](core-concepts/target-numericbands.md)
     - [StringCompare](core-concepts/target-stringcompare.md)
     - [NumericCompare](core-concepts/target-numericcompare.md)
+    - [Direct](core-concepts/target-direct.md)
 - Feature Reference
 - Examples
 - Troubleshooting
