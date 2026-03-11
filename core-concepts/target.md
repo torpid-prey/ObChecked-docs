@@ -50,7 +50,7 @@ The following Target types are supported:
 - **[StringCases](target-stringcases.md)** – categorises string values into predefined cases
 - **[NumericBands](target-numericbands.md)** – evaluates numeric values against defined bands
 - **[StringCompare](target-stringcompare.md)** – compares string values against another column
-- **NumericCompare** – compares numeric values against another column
+- **[NumericCompare](target-numericcompare.md)** – compares numeric values against another column
 - **Direct** – performs specialised built-in checks
 
 Detailed explanations for each type are coming up soon:
