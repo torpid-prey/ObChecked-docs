@@ -17,6 +17,7 @@ This repository contains documentation and examples for **ObChecked**.
     - [StringCompare](core-concepts/target-stringcompare.md)
     - [NumericCompare](core-concepts/target-numericcompare.md)
     - [Direct](core-concepts/target-direct.md)
+  - [Condition Node](core-concepts/condition.md)
 - Feature Reference
 - Examples
 - Troubleshooting
