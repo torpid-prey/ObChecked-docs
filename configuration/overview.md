@@ -4,6 +4,10 @@ Before auditing rules can be applied, ObChecked must know **where configuration 
 
 ObChecked separates configuration into several layers so that rules and settings can be shared across teams while still allowing project-specific overrides when required.
 
+![Main Menu](../screenshots/main-context-menu.png)
+
+*Access all properties via the main menu*
+
 ---
 
 ## Configuration Layers
