@@ -62,7 +62,7 @@ Target nodes have several methods to determine how a cell is audited, and provid
 
 Target nodes can compare the value of its cell against a list of acceptable strings, a range of acceptable numbers, comparisons against other cells or direct checks against being empty/not empty.
 
-See: `target.md` *coming soon*
+See: [Target](target.md)
 
 ---
 
