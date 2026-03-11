@@ -48,14 +48,13 @@ Determines how the cell value will be evaluated.
 The following Target types are supported:
 
 - **[StringCases](target-stringcases.md)** – categorises string values into predefined cases
-- **NumericBands** – evaluates numeric values against defined bands
+- **[NumericBands](target-numericbands.md)** – evaluates numeric values against defined bands
 - **StringCompare** – compares string values against another column
 - **NumericCompare** – compares numeric values against another column
 - **Direct** – performs specialised built-in checks
 
 Detailed explanations for each type are coming up soon:
 
-- `target-numericbands.md`
 - `target-stringcompare.md`
 - `target-numericcompare.md`
 - `target-direct.md`
