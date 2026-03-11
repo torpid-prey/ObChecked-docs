@@ -6,7 +6,7 @@ ObChecked separates configuration into several layers so that rules and settings
 
 ![Main Menu](../screenshots/main-context-menu.png)
 
-*Access all properties via the main menu*
+*Access all properties via the main menu in the bottom right corner*
 
 ---
 
