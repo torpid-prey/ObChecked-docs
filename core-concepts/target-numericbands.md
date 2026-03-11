@@ -14,6 +14,10 @@ NumericBands is typically used for values such as:
 
 It is designed for **range validation**, not exact value matching.
 
+Numeric bands cannot be entered straight into the Target details. You need to open the Bands collection via the `...` button.
+
+Once defined, they will become visible in the Target properties.
+
 ---
 
 ## How NumericBands Works
