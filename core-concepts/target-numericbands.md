@@ -133,6 +133,20 @@ This allows audit messages to dynamically display the expected limits.
 
 ---
 
+## Tolerance
+
+NumericBands support numeric tolerance.
+
+Tolerance is derived from the display format defined in the Column Definitions form.
+
+This helps avoid false failures caused by rounding or display precision.
+
+For example, equality does not require the two values to be mathematically identical down to every decimal place. Instead, they are considered equal if the difference falls within tolerance.
+
+This same tolerance system is also used by **NumericCompare**.
+
+---
+
 ## Column Limitations
 
 NumericBands evaluates only the value of the **TargetColumn**.
