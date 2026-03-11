@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This guide explains the simplest workflow for running an audit in **ObChecked**.
+This guide explains the simplest workflow for running an audit in **ObChecked** using default settings.
 
 The goal is to understand the basic structure of an audit and how rules are evaluated.
 
@@ -32,39 +32,22 @@ This ensures that no relevant objects are missed during validation.
 
 ---
 
-# Step 2 — Load an Audit Definition
+# Step 2 — Fetch the objects
 
-Audit behaviour is controlled by **audit definitions**.
+Once objects are selected, click Fetch (Top Left) and ObChecked imports properties for each object and displays them in the main list.
 
-These definitions contain the rule hierarchy that determines what properties are checked and how values are validated.
-
-An audit definition may include rules such as:
-
-- Allowed materials for specific profiles  
-- Maximum part lengths based on stock availability  
-- Required prefixes for assemblies  
-- Required User Defined Attribute (UDA) values  
-
-Different audit files may exist for different company standards or project requirements.
-
----
-
-# Step 3 — Run the Audit
-
-Once objects are selected and an audit definition is loaded, ObChecked evaluates each object against the defined rules.
+![Fetch](screenshots/btn-fetch.png)
 
 For each object:
 
-1. The relevant **Subjects** are identified  
-2. Matching rules are applied  
-3. Target properties are evaluated  
-4. Conditions determine whether values are valid  
+1. Each column defined in Column Definitions contains a property from the model
+2. Audits listed under Audit Definitions are automatically processed at the same time
 
 Any rule violations are flagged in the grid.
 
 ---
 
-# Step 4 — Review the Results
+# Step 3 — Review the Results
 
 Audit results appear in the **ObChecked grid**.
 
@@ -72,33 +55,36 @@ Each row represents an object, and each column represents a property being evalu
 
 Cells are flagged using severity levels:
 
-- **Okay** – value satisfies the rule  
-- **Info** – informational message  
-- **Warn** – potential issue detected  
-- **Error** – rule violation  
-- **Unknown** – rule could not be evaluated  
+- **Okay** – value satisfies the rule — *blue text*
+- **Info** – informational message — *blue background*
+- **Warn** – potential issue detected — *yellow background* 
+- **Error** – rule violation — *red background*
+- **Unknown** – rule could not be evaluated — *grey background*
 
 This allows users to quickly identify which objects require attention.
 
 ---
 
-# Step 5 — Inspect Messages
+# Step 4 — Inspect Messages
 
 Selecting a flagged cell displays additional information in the **message panel**.
 
-Messages explain:
+![Audit Message](screenshots/audit-result.png)
+
+Messages can explain:
 
 - Which rule was evaluated  
 - What value was expected  
-- What value was detected  
+- What value was detected
 
 Messages may also include **tokens** that reference:
 
-- Column names: use token {COLUMN_NAME}
-  - right click in property view for column name lists
-- Expected values: use token {@OKAY}
-  - '@' distinguishes it from column names.
-  - It should work for any flag specified by the audit: @OKAY, @INFO, @WARN, @ERROR.
+- Column values: use token `{COLUMN_NAME}` to dispplay the value of a cell
+- Expected values: use token `{@OKAY}`
+  - `@` distinguishes it from column names.
+  - It should work for any flag specified by the audit: `@OKAY`, `@INFO`, `@WARN`, `@ERROR`.
+
+Messages can be multi-lined and are **fully customisable** in the Audit Definitions dialog.
 
 This helps users understand exactly why a value failed validation.
 
