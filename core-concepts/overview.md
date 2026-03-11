@@ -12,6 +12,8 @@ Group → Subject → Match → Target → Condition
 
 Understanding how these nodes work together is the key to building effective audit definitions.
 
+![Condition editor](../screenshots/audit-node-structure.png)
+
 ---
 
 ## Group
