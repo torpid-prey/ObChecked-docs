@@ -4,7 +4,7 @@ The ObChecked main window is where objects are fetched from the Tekla model, dis
 
 Most operations are performed using the toolbar above the grid.
 
-<img src="screenshots/interface-main-window.png" width="800">
+<img src="..\screenshots/interface-main-window.png" width="800">
 
 *The numbered screenshot can be used here to visually identify each control.*
 
