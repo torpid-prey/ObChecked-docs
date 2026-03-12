@@ -52,6 +52,8 @@ This makes it possible to:
 - organise configurations by Tekla version
 - adapt to existing firm folder structures
 
+![Configure Firm Folder](../screenshots/configure-firm.png)
+
 ---
 
 ## Tokens
@@ -68,6 +70,10 @@ Currently supported tokens include:
 A dropdown menu is available in the dialog to insert supported tokens.
 
 > Note: The Tekla version token may currently include the service pack version. Future updates may simplify this to the main version number only.
+
+It is also possible that the Tekla version is already included in the Firm folder path in which case it may not be necessary to include.
+
+*If separated by Tekla version, changes in one version will not apply to another version. At the moment, changes will need to be made in each version independently.*
 
 Additional tokens may be added in future releases if required.
 
