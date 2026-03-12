@@ -6,7 +6,7 @@ Every value that can be evaluated by an audit rule must first exist as a **colum
 
 Because of this, column definitions form the foundation of the ObChecked auditing system.
 
-<img src="screenshots/column-definition.png" width="800">
+<img src="../screenshots/column-definition.png" width="800">
 
 *Column definition form.  Insert/Append and Cell/Row toggles in the top left. Row modify options along the right side.*
 
