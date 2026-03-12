@@ -140,5 +140,5 @@ This allows teams to maintain consistent validation rules while still supporting
 
 See also:
 
-- [Firm Folder Setup](configuration/firm-folder.md)
-- [Column Definitions](configuration/column-definitions.md)
+- [Firm Folder Setup](firm-folder.md)
+- [Column Definitions](column-definitions.md)
