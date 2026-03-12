@@ -1,8 +1,20 @@
-# ObChecked Documentation
-Documentation and usage for the Tekla Structures Extension — ObChecked, Published By Chloe Garcia
+# ObChecked Documentation 
+
+*Documentation and usage guide for the Tekla Structures Extension — ObChecked, Published By Chloe Garcia*
+
+<table>
+<tr>
+<td width="120">
+<img src="screenshots/obchecked-logo.png" width="100">
+</td>
+<td>
 
 Welcome to the documentation for **ObChecked**.
+
 This repository contains documentation and examples for **ObChecked**.
+</td>
+</tr>
+</table>
 
 ## Documentation
 
