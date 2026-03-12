@@ -111,11 +111,10 @@ Once configured correctly, the shared folder allows:
 
 ---
 
-## Next Step
+# Related Configuration
 
-Once the firm folder is configured, the next step is defining **Column Definitions**, which determine how Tekla object properties are interpreted by ObChecked.
+See also:
 
-See:
-
+- [File Locations](file-locations.md)
 - [Column Definitions](column-definitions.md)
 
