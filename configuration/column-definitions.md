@@ -235,10 +235,9 @@ Well-defined columns make audit rules significantly easier to create and maintai
 
 ---
 
-# Next Step
+# Related Configuration
 
-Once column definitions are configured, configuration files can be stored in different locations depending on how they should be shared.
+See also:
 
-See:
-
-- File Locations and Overrides
+- [Firm Folder Setup](firm-folder.md)
+- [File Locations](file-locations.md)
