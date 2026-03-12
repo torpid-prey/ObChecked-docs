@@ -105,6 +105,6 @@ Following this order ensures that shared configuration is established before rul
 
 ## Next Steps
 
-- [Firm Folder Setup](firm-folder.md)  
-- [File Locations and Overrides](file-locations.md)  
+- [Firm Folder Setup](firm-folder.md)
 - [Column Definitions](column-definitions.md)
+- [File Locations and Overrides](file-locations.md)
