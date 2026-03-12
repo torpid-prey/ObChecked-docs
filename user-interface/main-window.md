@@ -197,3 +197,51 @@ A common workflow when auditing objects is:
 6. Select objects in model _(keep rows selected in list)_
 7. Make batch-corrections to selected objects in Tekla
 8. Press **Fetch** again to update the selected rows
+
+---
+
+# Grid Context Menu
+
+Right-clicking the main grid opens a context menu with navigation and utility tools.
+
+![Cell Context Menu](../screenshots/cell-context-menu.png) 
+
+These options help locate rows, copy information, and interact with audit rules.
+
+---
+
+### Jump to First
+- Scrolls the grid to view the first row without changing selection
+
+### Jump to Selected
+- Scrolls the grid so the currently selected row becomes visible and central
+
+### Jump to Last
+- Scrolls the grid to view the last row without changing selection
+
+---
+
+### Copy Cell Value
+- Copies the value of the selected cell to the clipboard.
+
+### Copy Property Name
+- Copies the **column property name** to the clipboard.
+- This is useful when creating audit rules, where column names must be referenced exactly.
+
+Example usage:
+
+    SubjectColumn: PROFILE
+    TargetColumn: MATERIAL
+
+### Find Audit Node
+- This option is only available when the **Audit Definition window** is open.
+- Locates the node responsible for the selected cell's aduit result.
+
+---
+
+### Invert Selection
+- Inverts row selection so all deselected rows are selected and vice versa.
+
+### Select Similar
+- Selects all rows where the value of the selected cell matches the current value.
+- This can be useful for quickly grouping objects with the same property value.
