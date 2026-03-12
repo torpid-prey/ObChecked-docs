@@ -18,6 +18,10 @@ This repository contains documentation and examples for **ObChecked**.
     - [NumericCompare](core-concepts/target-numericcompare.md)
     - [Direct](core-concepts/target-direct.md)
   - [Condition Node](core-concepts/condition.md)
+- [Configuration](configuration/overview.md)
+  - [Firm Folder](configuration/firm-folder.md)
+  - [Column Definitions](configuration/column-definitions.md)
+  - [File Locations](configuration/file-locations.md)
 - Feature Reference
 - Examples
 - Troubleshooting
