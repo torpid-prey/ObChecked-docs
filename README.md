@@ -22,6 +22,8 @@ This repository contains documentation and examples for **ObChecked**.
   - [Firm Folder](configuration/firm-folder.md)
   - [Column Definitions](configuration/column-definitions.md)
   - [File Locations](configuration/file-locations.md)
+- User Interface
+  - [Main Window](user-interface/main-window.md)
 - Feature Reference
 - Examples
 - Troubleshooting
