@@ -10,7 +10,7 @@ The available locations are:
 
 These locations follow the same precedence logic used by Tekla environments.
 
-![Column Save Location](screenshots/column-save-location.png)
+![Column Save Location](../screenshots/column-save-location.png)
 
 ---
 
