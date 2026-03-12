@@ -19,7 +19,7 @@ This repository contains documentation and examples for **ObChecked**.
     - [Direct](core-concepts/target-direct.md)
   - [Condition Node](core-concepts/condition.md)
 - [Configuration](configuration/overview.md)
-  - [Firm Folder](configuration/firm-folder.md)
+  - [Firm Folder Setup](configuration/firm-folder.md)
   - [Column Definitions](configuration/column-definitions.md)
   - [File Locations](configuration/file-locations.md)
 - User Interface
