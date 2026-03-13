@@ -1,6 +1,6 @@
 # Audit Definition Editor
 
-<img src="screenshots/interface-audit-definition.png" width="500">
+<img src="../screenshots/interface-audit-definition.png" width="500">
 
 The **Audit Definition Editor** is used to create and modify audit rules.  
 Rules are organised in a hierarchical structure that defines how each row in the grid is evaluated.
@@ -98,12 +98,12 @@ Icons differ depending on the **match flag behaviour**:
 
 | Icon | Value |
 |--|--|
-| ![Subject Okay](screenshots/node/subject_okay.png) | Okay |
-| ![Subject Info](screenshots/node/subject_info.png) | Info |
-| ![Subject Warn](screenshots/node/subject_warn.png) | Warn |
-| ![Subject Error](screenshots/node/subject_error.png) | Error |
-| ![Subject Unknown](screenshots/node/subject_unknown.png) | Unknown |
-| ![Subject None](screenshots/node/subject_none.png) | None |
+| ![Subject Okay](../screenshots/node/subject_okay.png) | Okay |
+| ![Subject Info](../screenshots/node/subject_info.png) | Info |
+| ![Subject Warn](../screenshots/node/subject_warn.png) | Warn |
+| ![Subject Error](../screenshots/node/subject_error.png) | Error |
+| ![Subject Unknown](../screenshots/node/subject_unknown.png) | Unknown |
+| ![Subject None](../screenshots/node/subject_none.png) | None |
 
 ## Match Nodes
 
@@ -116,9 +116,9 @@ Icons differ depending on the **match type**:
 
 | Icon | Value |
 |--|--|
-| ![Exact](screenshots/node/match_exact.png) | Exact |
-| ![Like](screenshots/node/match_like.png) | Like |
-| ![Regex](screenshots/node/match_regex.png) | Regex |
+| ![Exact](../screenshots/node/match_exact.png) | Exact |
+| ![Like](../screenshots/node/match_like.png) | Like |
+| ![Regex](../screenshots/node/match_regex.png) | Regex |
 
 ## Target Nodes
 
@@ -131,18 +131,18 @@ Icons differ depending on the **target type**:
 
 | Icon | Value |
 |--|--|
-| ![StringCases](screenshots/node/target_stringcases.png) | StringCases |
-| ![NumericBands](screenshots/node/target_numericbands.png) | NumericBands | 
-| ![StringCompare](screenshots/node/target_compare_string.png) | StringCompare | 
-| ![NumericCompare](screenshots/node/target_compare_numeric.png) | NumericCompare | 
-| ![Direct](screenshots/node/target_direct.png) | Direct | 
+| ![StringCases](../screenshots/node/target_stringcases.png) | StringCases |
+| ![NumericBands](../screenshots/node/target_numericbands.png) | NumericBands | 
+| ![StringCompare](../screenshots/node/target_compare_string.png) | StringCompare | 
+| ![NumericCompare](../screenshots/node/target_compare_numeric.png) | NumericCompare | 
+| ![Direct](../screenshots/node/target_direct.png) | Direct | 
 
 ApplyMode is also indicated:
 
 | Icon | Value |
 |--|--|
-| ![onFirstMatch](screenshots/node/target_stringcases_first.png) | onFirstMatch |
-| ![onAnyMatch](screenshots/node/target_stringcases_any.png) | onAnyMatch |
+| ![onFirstMatch](../screenshots/node/target_stringcases_first.png) | onFirstMatch |
+| ![onAnyMatch](../screenshots/node/target_stringcases_any.png) | onAnyMatch |
 
 ## Condition Nodes
 
@@ -152,8 +152,8 @@ Icons differ depending on the **ConditionMode** of the parent target:
 
 | Icon | Value |
 |--|--|
-| ![All](screenshots/node/cond_all.png) | All |
-| ![Any](screenshots/node/cond_any.png) | Any |
+| ![All](../screenshots/node/cond_all.png) | All |
+| ![Any](../screenshots/node/cond_any.png) | Any |
 
 
 # Property Grid
@@ -237,7 +237,7 @@ After previewing, you can either:
 
 # Match Results Viewer
 
-The **Matches** button opens the Match Results window.
+The [Matches](../core-concepts/condition.md#regex-match-groups) button opens the Match Results window.
 
 When used with:
 
