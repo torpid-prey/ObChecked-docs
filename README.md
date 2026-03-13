@@ -39,6 +39,7 @@ This repository contains documentation and examples for **ObChecked**.
   - [Audit Definition Editor](user-interface/audit-definition-editor.md)
 - Feature Reference
 - Examples
+  - [Profile Rule Examples](examples/profile/overview.md)
 - Troubleshooting
 
 The source code for ObChecked is not public.
