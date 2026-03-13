@@ -1,0 +1,325 @@
+{
+  "NodeID": "888f8fd7-0c78-48e3-b625-772c6db43905",
+  "SubjectColumn": "MATERIAL",
+  "Description": "Audits that check FINISH based on steel, grating, or other",
+  "Matches": [
+    {
+      "NodeID": "3d9daaf9-b75d-4f61-ae77-f9f39415bf1a",
+      "Pattern": "DUMMY",
+      "PatternKind": "exact",
+      "Cells": [],
+      "DisplayName": ""
+    },
+    {
+      "NodeID": "61dc48ce-d008-43cb-92e2-f413b5ea690a",
+      "Pattern": "GROUT",
+      "PatternKind": "exact",
+      "Cells": [],
+      "DisplayName": ""
+    },
+    {
+      "NodeID": "6eb4227c-342e-408c-93f2-8adf04b83355",
+      "Pattern": "G450",
+      "PatternKind": "exact",
+      "Cells": [
+        {
+          "NodeID": "01644c22-aba9-4d18-bc9b-52981d1e8240",
+          "TargetColumn": "FINISH",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "Incorrect finish — should be {@OKAY}"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "GALVANISED"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": "Finish is correct"
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": "Cold Rolled"
+    },
+    {
+      "NodeID": "cdb71ca9-9cb7-40d8-9363-5cfaa396dbe2",
+      "Pattern": "^(A|B|C|D|F)(\\d{3})\\-(M[P|S][G|U])\\-(\\d+)$",
+      "PatternKind": "regex",
+      "Cells": [
+        {
+          "NodeID": "9ba7b14c-6ba6-4437-a896-ec6f444acf1b",
+          "TargetColumn": "FINISH",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "Incorrect finish — should be {@OKAY}"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "GALVANISED"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": "Finish is correct"
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": "Grating"
+    },
+    {
+      "NodeID": "466f66a4-2921-4049-a36e-9018a9216b6d",
+      "Pattern": "*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "7884a742-8ed7-4b08-8e69-5a90158b749d",
+          "TargetColumn": "FINISH",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "If {NAME} is a sub assembly, it must have a recognised finish\r\n{@OKAY}"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "SUB ASSEMBLY - NO PAINT",
+                "SUB ASSEMBLY - GALVANISE BEFORE WELDING"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [
+            {
+              "NodeID": "2c2bdc83-b1dc-497b-8162-6f874c80f782",
+              "LeftSource": "column",
+              "Column": "MAIN_PART",
+              "MatchIndex": 0,
+              "Operator": "like",
+              "Values": [
+                "True"
+              ]
+            },
+            {
+              "NodeID": "7d730e9e-8e3c-425c-8a17-398a934308d7",
+              "LeftSource": "column",
+              "Column": "ASSEMBLY.HIERARCHY_LEVEL",
+              "MatchIndex": 0,
+              "Operator": ">",
+              "Values": [],
+              "Value": 0.0
+            }
+          ],
+          "ConditionsMode": "all"
+        },
+        {
+          "NodeID": "87511fb8-7574-4d2b-9dd8-a9defffcd67c",
+          "TargetColumn": "FINISH",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "If {NAME} is the main part, it must have a recognised finish\r\n{@OKAY}"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "1 COAT ZP PRIMER",
+                "WIRE BRUSH CLEAN, 1 COAT ZP PRIMER",
+                "NO PAINT"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": "Finish is recognised and okay"
+              }
+            },
+            "Info": {
+              "Values": [
+                "GALVANISED",
+                "GALVANISED - ADD HOLES AS REQUIRED"
+              ],
+              "Severity": {
+                "Flag": 2,
+                "Template": "Finish is recognised and important — allow for galv holes"
+              }
+            },
+            "Warn": {
+              "Values": [
+                "INTUMESCENT PAINT",
+                "SPECIAL PAINT"
+              ],
+              "Severity": {
+                "Flag": 3,
+                "Template": "Finish is recognised and important — check if colour is specified"
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "like"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [
+            {
+              "NodeID": "44e694bd-90cf-41f2-b0d8-26abebc93e1d",
+              "LeftSource": "column",
+              "Column": "MAIN_PART",
+              "MatchIndex": 0,
+              "Operator": "like",
+              "Values": [
+                "True"
+              ]
+            },
+            {
+              "NodeID": "29a6c4f1-cb2c-4212-9576-e220c7351d1c",
+              "LeftSource": "column",
+              "Column": "ASSEMBLY.HIERARCHY_LEVEL",
+              "MatchIndex": 0,
+              "Operator": "==",
+              "Values": [],
+              "Value": 0.0
+            }
+          ],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": "Steelwork"
+    }
+  ],
+  "OnMatch": {
+    "Flag": 0,
+    "Template": ""
+  },
+  "OnNoMatch": {
+    "Flag": 0,
+    "Template": ""
+  },
+  "ApplyMode": "bySeverity",
+  "FileName": "Parts_MATERIAL.aud",
+  "Group": "Parts"
+}

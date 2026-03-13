@@ -1,0 +1,79 @@
+{
+  "NodeID": "2a2b999e-14ef-49a0-bd2e-9b6ea8def1b9",
+  "SubjectColumn": "PHASE.OTHERS",
+  "Description": "Phase checks",
+  "Matches": [
+    {
+      "NodeID": "079c03de-058a-478e-8faa-c05af66d14b2",
+      "Pattern": "*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "000d64e6-a404-4f83-aae4-b38e74229373",
+          "TargetColumn": "PHASE.OTHERS",
+          "Type": "direct",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "There should not be any other phases. Select child object and father components and re-apply phasing."
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": "No other phases is good"
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "CellValueEmpty",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": "(RUN ON ALL ROWS)"
+    }
+  ],
+  "OnMatch": {
+    "Flag": 0,
+    "Template": ""
+  },
+  "OnNoMatch": {
+    "Flag": 0,
+    "Template": ""
+  },
+  "ApplyMode": "bySeverity",
+  "FileName": "Bolts_PHASE_OTHERS.aud",
+  "Group": "Bolts"
+}

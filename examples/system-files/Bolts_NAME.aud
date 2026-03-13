@@ -1,0 +1,555 @@
+{
+  "NodeID": "5e93adb4-2fc4-4d56-a5eb-54cdcbf9595b",
+  "SubjectColumn": "NAME",
+  "Description": "Checking bolt names",
+  "Matches": [
+    {
+      "NodeID": "2a3bc00a-b740-4e0a-a5d6-8c94c89af9c6",
+      "Pattern": "BOLTM*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "5219c3ce-2e79-44f6-a140-b1e878a07922",
+          "TargetColumn": "BOLT_STANDARD",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": ""
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "8.8S",
+                "8.8TB"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [
+                "8.8TF"
+              ],
+              "Severity": {
+                "Flag": 2,
+                "Template": "No paint required to bolted surfaces"
+              }
+            },
+            "Warn": {
+              "Values": [
+                "4.6S"
+              ],
+              "Severity": {
+                "Flag": 3,
+                "Template": "Non-structural bolt used"
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": ""
+    },
+    {
+      "NodeID": "3f1bf0b3-3868-4d30-9554-600c079f9efc",
+      "Pattern": "BOLTPB12*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "9c870f22-53da-42f6-9174-ec44dad6a445",
+          "TargetColumn": "BOLT_STANDARD",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": ""
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "PB1230"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": "Standard purlin bolt used for purlins"
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        },
+        {
+          "NodeID": "218729c1-0c64-456e-92e8-e4e6794c9354",
+          "TargetColumn": "TOLERANCE",
+          "Type": "numericBands",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "6 tolerance for purlin bolts"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": [
+              {
+                "Max": 5.0,
+                "Severity": {
+                  "Flag": 4,
+                  "Template": "6 Tolerance required for purlin bolts"
+                }
+              },
+              {
+                "Max": 6.0,
+                "Severity": {
+                  "Flag": 1,
+                  "Template": "6 Tolerance is okay for purlin bolts"
+                }
+              }
+            ]
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": ""
+    },
+    {
+      "NodeID": "e28367b7-0e95-46e4-98ce-a9a6d624e707",
+      "Pattern": "DWASHER*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "7a782e53-5b6f-4713-a1ba-a769bd7bdb8d",
+          "TargetColumn": "BOLT_STANDARD",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": ""
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [
+                "4.6S"
+              ],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        },
+        {
+          "NodeID": "08272e62-e042-42f3-80c1-3c783b7f74b3",
+          "TargetColumn": "TOLERANCE",
+          "Type": "numericBands",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "2 tolerance for Dwashers"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": [
+              {
+                "Max": 2.0,
+                "Severity": {
+                  "Flag": 1,
+                  "Template": "2 Tolerance is okay for Dwashers"
+                }
+              }
+            ]
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": ""
+    },
+    {
+      "NodeID": "8d5e54bf-8310-4389-8932-f6c9cd9330bb",
+      "Pattern": "BOLTPB16*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "66630ec3-a2bb-4350-a6fe-9e75d21df3aa",
+          "TargetColumn": "BOLT_STANDARD",
+          "Type": "stringCases",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": ""
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [
+                "PB1645"
+              ],
+              "Severity": {
+                "Flag": 2,
+                "Template": "Larger purlin bolt used for joists"
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        },
+        {
+          "NodeID": "f65b7a64-005c-4d0f-8b76-d16770b1f3e6",
+          "TargetColumn": "TOLERANCE",
+          "Type": "numericBands",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "6 tolerance for purlin bolts"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": [
+              {
+                "Max": 2.0,
+                "Severity": {
+                  "Flag": 1,
+                  "Template": "2 Tolerance is okay for joist bolts"
+                }
+              },
+              {
+                "Max": 6.0,
+                "Severity": {
+                  "Flag": 2,
+                  "Template": "6 tolerance is okay for 300/350 purlins"
+                }
+              }
+            ]
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": ""
+    },
+    {
+      "NodeID": "807f06eb-73b1-4c50-9795-2120b2d4d0ce",
+      "Pattern": "CHEM*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "8898342f-3b2d-4833-a080-2c0fbdacee20",
+          "TargetColumn": "TOLERANCE",
+          "Type": "numericBands",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": ""
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": ""
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": [
+              {
+                "Max": 3.0,
+                "Severity": {
+                  "Flag": 4,
+                  "Template": "tolerance too small for chemset"
+                }
+              },
+              {
+                "Max": 4.0,
+                "Severity": {
+                  "Flag": 2,
+                  "Template": "4 tolerance is okay for chemset to wall"
+                }
+              },
+              {
+                "Max": 6.0,
+                "Severity": {
+                  "Flag": 1,
+                  "Template": "6 tolerance is okay for Chemset"
+                }
+              }
+            ]
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": ""
+    }
+  ],
+  "OnMatch": {
+    "Flag": 1,
+    "Template": "Recognised Bolt Name"
+  },
+  "OnNoMatch": {
+    "Flag": 5,
+    "Template": "Unrecognised Bolt"
+  },
+  "ApplyMode": "bySeverity",
+  "FileName": "Bolts_NAME.aud",
+  "Group": "Bolts"
+}

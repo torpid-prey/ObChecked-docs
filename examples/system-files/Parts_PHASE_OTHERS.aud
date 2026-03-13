@@ -1,0 +1,197 @@
+{
+  "NodeID": "28935f33-c9a9-41b3-9e98-0ee13800858a",
+  "SubjectColumn": "PHASE.OTHERS",
+  "Description": "Audits that relate to the phase and other properties",
+  "Matches": [
+    {
+      "NodeID": "b3e4dce0-a070-47a4-ab49-0859c446e3c1",
+      "Pattern": "*",
+      "PatternKind": "like",
+      "Cells": [
+        {
+          "NodeID": "2cf4f924-d0ba-4353-a03a-100b7b3e09dc",
+          "TargetColumn": "PHASE.OTHERS",
+          "Type": "direct",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "There should not be any other associated phases. Select child object and father components and re-apply phasing.\r\n[~] Child objects (cuts/welds) | [^] Father component | [*] Assembly main part"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": "No other associated phases is correct"
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "CellValueEmpty",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        },
+        {
+          "NodeID": "7c443a11-fc27-418d-a673-52a661697bda",
+          "TargetColumn": "USER_PHASE",
+          "Type": "stringCompare",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "User phase must match phase number"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": "User phase matches phase number"
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "PHASE.NUMBER",
+          "DirectID": "",
+          "Conditions": [
+            {
+              "NodeID": "aba67f9f-ee7a-40eb-87fe-0b01ffeeb9e5",
+              "LeftSource": "column",
+              "Column": "MATERIAL",
+              "MatchIndex": 0,
+              "Operator": "notEquals",
+              "Values": [
+                "DUMMY",
+                "GROUT"
+              ]
+            }
+          ],
+          "ConditionsMode": "all"
+        },
+        {
+          "NodeID": "1677af38-ca34-4e82-87dc-ef5f442fdec6",
+          "TargetColumn": "fabricator",
+          "Type": "direct",
+          "Otherwise": {
+            "Flag": 4,
+            "Template": "Part marked {fabricator}\r\n{USER_FIELD_1}"
+          },
+          "Pass": {
+            "Flag": 1,
+            "Template": "No warnings listed"
+          },
+          "ApplyMode": "bySeverity",
+          "Cases": {
+            "Okay": {
+              "Values": [],
+              "Severity": {
+                "Flag": 1,
+                "Template": ""
+              }
+            },
+            "Info": {
+              "Values": [],
+              "Severity": {
+                "Flag": 2,
+                "Template": ""
+              }
+            },
+            "Warn": {
+              "Values": [],
+              "Severity": {
+                "Flag": 3,
+                "Template": ""
+              }
+            },
+            "Error": {
+              "Values": [],
+              "Severity": {
+                "Flag": 4,
+                "Template": ""
+              }
+            },
+            "MatchKind": "exact"
+          },
+          "Bands": {
+            "Bands": []
+          },
+          "Operator": "equals",
+          "ComparisonColumn": "",
+          "DirectID": "CellValueEmpty",
+          "Conditions": [],
+          "ConditionsMode": "all"
+        }
+      ],
+      "DisplayName": "(RUN ON ALL ROWS)"
+    }
+  ],
+  "OnMatch": {
+    "Flag": 0,
+    "Template": ""
+  },
+  "OnNoMatch": {
+    "Flag": 0,
+    "Template": ""
+  },
+  "ApplyMode": "bySeverity",
+  "FileName": "Parts_PHASE_OTHERS.aud",
+  "Group": "Parts"
+}
