@@ -4,7 +4,7 @@
 
 The maximum permitted member length depends on the depth of the profile.
 
-For example, larger UB sections may only be available in shorter stock lengths than smaller sections.
+For example, smaller UB sections may only be available in shorter stock lengths than deeper sections.
 
 ## Strategy
 
@@ -18,7 +18,7 @@ Subject
 : `PROFILE`
 
 Match
-: Regex that extracts profile depth
+: Regex that extracts profile depth, e.g. `UB310*40`
 
 Target
 : `LENGTH_NET`
@@ -30,10 +30,11 @@ Conditions
 
     Subject: PROFILE
       Match: Regex
-        Target: LENGTH_NET
-          Condition: matchNumber[0] <= <depth range>
-        Target: LENGTH_NET
-          Condition: matchNumber[0] > <depth range>
+        Target: LENGTH_NET <= 15000
+          Condition: matchNumber[0] <= 200
+        Target: LENGTH_NET <= 18000
+          Condition: matchNumber[0] > 200
+*Therefore, sections up to incl. 200 deep are available in 15000 lengths. Deeper sections are available in 18000 lengths.*
 
 ## Why This Pattern Is Useful
 
@@ -49,9 +50,10 @@ It is especially useful when:
 
 | Profile | Extracted Depth | Length | Result |
 |--|--:|--:|--|
-| UB310x40 | 310 | 12000 | Okay |
-| UB310x40 | 310 | 13500 | Error |
-| UB460x82 | 460 | 9000 | Okay |
+| UB200x18 | 200 | 12000 | Okay |
+| UB200x18 | 200 | 16000 | Error |
+| UB460x82 | 460 | 12000 | Okay |
+| UB460x82 | 460 | 16000 | Okay |
 
 ## Notes
 
