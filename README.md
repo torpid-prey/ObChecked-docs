@@ -36,6 +36,7 @@ This repository contains documentation and examples for **ObChecked**.
   - [File Locations](configuration/file-locations.md)
 - User Interface
   - [Main Window](user-interface/main-window.md)
+  - [Audit Definition Editor](user-interface/audit-definition-editor.md)
 - Feature Reference
 - Examples
 - Troubleshooting
