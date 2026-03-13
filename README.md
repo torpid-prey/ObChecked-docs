@@ -37,10 +37,10 @@ This repository contains documentation and examples for **ObChecked**.
 - User Interface
   - [Main Window](user-interface/main-window.md)
   - [Audit Definition Editor](user-interface/audit-definition-editor.md)
-- Feature Reference
 - Examples
   - [Profile Rule Examples](examples/profile/overview.md)
 - Troubleshooting
+  - What on earth could possibly go wrong?
 
 The source code for ObChecked is not public.
 
