@@ -33,7 +33,7 @@ Expected Result
 ## Minimal Tree
 
     Subject: PROFILE
-      Match: UB...
+      Match: UB*
         Target: MATERIAL
 
 ## Why This Pattern Is Useful
@@ -52,7 +52,7 @@ Typical examples include:
 | Profile | Material | Result |
 |--|--|--|
 | UB310x40 | 300PLUS | Okay |
-| UB310x40 | 350PLUS | Error |
+| UB310x40 | 350 | Error |
 | UB460x82 | 300PLUS | Okay |
 
 ## Notes
