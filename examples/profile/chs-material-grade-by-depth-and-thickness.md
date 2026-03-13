@@ -10,7 +10,7 @@ Some sizes are available only in `250`, some only in `350`, and some are availab
 
 ## Strategy
 
-Use one CHS regex Match to extract the key profile values, then apply many `MATERIAL` targets with Conditions based on both depth and thickness.
+Use one CHS regex Match to extract the key profile values, then apply many `MATERIAL` Targets with Conditions based on both depth and thickness.
 
 This approach avoids duplicating the same regex logic repeatedly.
 
