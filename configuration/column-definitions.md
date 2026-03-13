@@ -8,9 +8,9 @@ Because of this, column definitions form the foundation of the ObChecked auditin
 
 <img src="../screenshots/column-definition.png" width="600">
 
-- Insert/Append and Cell/Row toggles in the top left.
-- Row modify options along the right side.
-- Direct options available from cell context menu.
+- Insert/Append and Cell/Row **Editor Toggles** in the top right corner.
+- **Row Modify** options along the right-hand side.
+- **Direct** options available from cell context menu.
 
 ---
 
@@ -51,21 +51,6 @@ The GUID column should normally remain **hidden**, as it is not intended for use
 
 Columns retrieve values from Tekla using different source types.
 
-## Direct Properties
-
-Direct properties read values directly from the Tekla model object.
-
-Examples from the default configuration include:
-
-    GUID
-    ROTATION
-    ASSY_PREFIX
-    RADIUS
-
-These properties do not rely on Tekla report attributes and are retrieved directly from the model object.
-
-> In some cases, these can return different values to the ReportProperty equivalent. For example, Direct ASSY_PREFIX will return the value entered into part properties. The ReportProperty ASSEMBLY_PREFIX will return the resolved prefix for the assembly itself (not necessarily the same value in the part properties)
-
 ---
 
 ## Report Properties
@@ -99,6 +84,29 @@ These are often used for:
 
 ---
 
+## Direct Properties
+
+Direct properties read values directly from the Tekla model object.
+
+Examples from the default configuration include:
+
+| Property | Description |
+|--|--|
+| `GUID` | Alternative to ReportProperty, should not be different. |
+| `CLASS` | Not available from ReportProperty. |
+| `ROTATION` | Not available from ReportProperty. |
+| `ANGLE` | Not available from ReportProperty. |
+| `ASSY_PREFIX` | ReportProperty `ASSEMBLY_PREFIX` returns the resolved value from its welded assembly. Direct `ASSY_PREFIX` returns the value from the part properties. |
+| `RADIUS` | ReportProperty `RADIUS` only returns the curved beam Radius field. Direct `RADIUS` also calculates radius from 3 points of polybeam (if available, and if node is set to `Rounding` or `Arc Point`) and returns first non-zero result. |
+| `PROFILE` | ReportProperty `PROFILE` returns the resolved profile using fltprops.inp and may change PL to FL depending on settings. Direct `PROFILE` returns the value from the part properties. |
+| `PHASE.NAME` | Returned from model object before converting to part, bolt, or component. Cached to optimise speed. |
+| `PHASE.NUMBER` | Returned from model object before converting to part, bolt, or component. Cached to optimise speed. |
+| `PHASE.OTHERS` | Complex algorithm to examine related objects, compare phases, and accumulate differences. Cached to optimise speed. |
+
+> In some cases, Direct properties may return different values to the ReportProperty equivalent.
+
+---
+
 # Datatypes
 
 Each column must define a **datatype**.
@@ -112,7 +120,7 @@ Supported datatypes include:
 | String | text values such as profile names or materials |
 | Integer | whole numbers |
 | Double | numeric values with decimal precision |
-| Boolean | true / false values |
+| Boolean | true / false values, appears as checkbox |
 
 Selecting the correct datatype is important.
 
