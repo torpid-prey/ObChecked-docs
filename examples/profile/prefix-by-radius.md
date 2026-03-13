@@ -33,10 +33,10 @@ Conditions
 
     Subject: PROFILE
       Match: <profile family>
-        Target: PART_PREFIX
+        Target: PART_PREFIX = [M]
           Condition: RADIUS = 0
-        Target: PART_PREFIX
-          Condition: RADIUS > 0
+        Target: PART_PREFIX = [U]
+          Condition: RADIUS != 0
 
 ## Why This Pattern Is Useful
 
@@ -46,14 +46,16 @@ The same cell should not normally be targeted twice within one match branch, **u
 
 That allows equivalent checks to apply in different situations without creating separate subject branches.
 
+We use `!=` (not equal) rather than `>` (greater than) because some radius values are negative in Tekla.
+
 ## Example Results
 
 | Profile | Radius | Part Prefix | Result |
 |--|--|--|--|
-| UB310x40 | 0 | SB | Okay |
-| UB310x40 | 0 | CB | Error |
-| UB310x40 | 2500 | CB | Okay |
-| UB310x40 | 2500 | SB | Error |
+| UB310x40 | 0 | M | Okay |
+| UB310x40 | 0 | U | Error |
+| UB310x40 | 2500 | U | Okay |
+| UB310x40 | 2500 | M | Error |
 
 ## Notes
 
