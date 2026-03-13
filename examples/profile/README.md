@@ -24,8 +24,8 @@ These examples are intended to complement the Core Concepts pages. They focus on
 
 ## Related Documentation
 
-- Core Concepts → Subject
-- Core Concepts → Match
-- Core Concepts → Target
-- Core Concepts → Condition
-- Audit Definition Editor
+- Core Concepts → [Subject Node](../../core-concepts/subject.md)
+- Core Concepts → [Match Node](../../core-concepts/match.md)
+- Core Concepts → [Target Node](../../core-concepts/target.md)
+- Core Concepts → [Condition Node](../../core-concepts/condition.md)
+- User Interface → [Audit Definition Editor](../../user-interface/audit-definition-editor.md)
