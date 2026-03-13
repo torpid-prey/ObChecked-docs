@@ -8,11 +8,10 @@ Rules are organised in a hierarchical structure that defines how each row in the
 This page describes the **user interface** used to create audit rules.  
 For detailed explanations of the underlying logic, see the Core Concepts pages:
 
-- Subject Nodes
-- Match Nodes
-- Target Nodes
-- Condition Nodes
-
+- [Subject Node](../core-concepts/subject.md)
+- [Match Node](../core-concepts/match.md)
+- [Target Node](../core-concepts/target.md)
+- [Condition Node](../core-concepts/condition.md)
 
 # Audit Tree
 
