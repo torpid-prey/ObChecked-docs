@@ -44,16 +44,18 @@ Fallback Targets
 That makes it ideal for cases where:
 
 - a later rule is only a backup
-- the first matching result should remain authoritative
+- the first matching results are limited via conditions
+    - i.e. not necessarily applied to every row
 - overlapping lists would otherwise create unnecessary conflicts
 
 ## Example Behaviour
 
 | Profile | Material | Main Table Result | Fallback Result | Final Result |
 |--|--|--|--|--|
-| CHS... main-table size | 250 | Okay | not applied | Okay |
-| CHS... fallback-only size | 350 | no result | Okay | Okay |
-| CHS... invalid size | 250 | Error | no result | Error |
+| CHS... found in main table | 250 | Okay | skipped | Okay |
+| CHS... not in main table | 350 | no result | Okay | Okay |
+| CHS... found in main table | 250 | Error | skipped | Error |
+| CHS... not in main table | 350 | no result | Info | Info |
 
 ## Notes
 
