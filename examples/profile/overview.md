@@ -12,7 +12,9 @@ Each page follows the same structure:
 
 These examples are intended to complement the Core Concepts pages. They focus on **how to solve a problem**, rather than how each node type works internally.
 
-## Examples
+---
+
+## Example Rules
 
 - [Fixed material by profile family](fixed-material-by-profile-family.md)
 - [Prefix by radius](prefix-by-radius.md)
@@ -21,6 +23,18 @@ These examples are intended to complement the Core Concepts pages. They focus on
 - [CHS material grade by depth and thickness](chs-material-grade-by-depth-and-thickness.md)
 - [CHS fallback material rules](chs-fallback-material-rules.md)
 - [CHS length override rules](chs-length-override-rules.md)
+
+---
+
+## System File Reference
+
+The rules used in these examples are based on the system audit file:
+
+[Parts_PROFILE.aud](../system-files/Parts_PROFILE.aud)
+
+This file contains the complete set of name-based audit rules installed with ObChecked.
+
+---
 
 ## Related Documentation
 
