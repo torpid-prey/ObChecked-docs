@@ -49,6 +49,6 @@ This rule ensures that these elements maintain the correct orientation.
 
 ## Notes
 
-This rule uses the **[Direct](../core-concepts/target-direct.md)** audit type rather than a value comparison.
+This rule uses the **[Direct](../../core-concepts/target-direct.md)** audit type rather than a value comparison.
 
 Also note that `XS_ORIENTATION_MARK_DIRECTION` must be correctly configured also. 
