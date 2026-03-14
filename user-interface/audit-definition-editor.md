@@ -1,6 +1,9 @@
 # Audit Definition Editor
 
-<img src="../screenshots/interface-audit-definition.png" width="500">
+<!-- ![Audit Definition Window](../screenshots/interface-audit-definition.png) -->
+<a href="../screenshots/interface-audit-definition.png">
+  <img src="../screenshots/interface-audit-definition.png" width="800">
+</a>
 
 The **Audit Definition Editor** is used to create and modify audit rules.  
 Rules are organised in a hierarchical structure that defines how each row in the grid is evaluated.

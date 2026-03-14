@@ -15,6 +15,7 @@ EXCLUDE_FILES = {
     "docs-index.md",
     "_template.md",
     "generate_docs_index.py",
+    "google4ea0181efa2e0b16.html",
 }
 
 EXCLUDE_DIRS = {

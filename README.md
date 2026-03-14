@@ -5,7 +5,9 @@
 <table>
 <tr>
 <td width="120">
-<img src="screenshots/obchecked-logo.png" width="100">
+
+![ObChecked Logo](screenshots/obchecked-logo.png)
+
 </td>
 <td>
 
