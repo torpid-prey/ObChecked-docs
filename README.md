@@ -38,6 +38,7 @@ This repository contains documentation and examples for **ObChecked**.
   - [Main Window](user-interface/main-window.md)
   - [Audit Definition Editor](user-interface/audit-definition-editor.md)
 - [Examples](examples/overview.md)
+  - [Rule Design Patterns](examples/rule-design-patterns.md)
   - [Profile Rule Examples](examples/profile/overview.md)
   - [Name Rule Examples](examples/name/overview.md)
   - [Common Rule Examples](examples/common/overview.md)
