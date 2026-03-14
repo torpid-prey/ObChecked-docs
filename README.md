@@ -7,14 +7,15 @@
 <td width="120">
 <!-- ![ObChecked Logo](screenshots/obchecked-logo.png) -->
 
-<img src="screenshots/obchecked-logo.png" width="800">
+<img src="screenshots/obchecked-logo.png" width="100">
 
 </td>
 <td>
 
 Welcome to the documentation for <b>ObChecked</b>.
+<br>
 
-<br>This repository contains documentation and examples for <b>ObChecked</b>.</br>
+This repository contains documentation and examples for <b>ObChecked</b>.
 
 </td>
 </tr>
