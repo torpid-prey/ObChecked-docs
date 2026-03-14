@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://torpid-prey.github.io/ObChecked-docs/sitemap.xml

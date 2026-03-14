@@ -15,7 +15,10 @@ EXCLUDE_FILES = {
     "docs-index.md",
     "_template.md",
     "generate_docs_index.py",
+    "generate_sitemap.py",
     "google4ea0181efa2e0b16.html",
+    "robots.txt"
+    "sitemap.xml"
 }
 
 EXCLUDE_DIRS = {
