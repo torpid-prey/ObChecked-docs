@@ -137,6 +137,16 @@ You can enter text into the DisplayName and it will update the text in the node 
 
 ---
 
+## Match Order
+
+Each Match node is evaluated in order from top to bottom. Once a Match is found, it returns the OnMatch result to the cell and skips all other Matches for that Subject.
+
+Most nodes (except Subject nodes) can be re-orded by drag and drop. This makes it possible to ensure the order is correct.
+
+This allows fallback Match nodes, so if no match is found in a Subject, a wildcard `*` match can be added last, which will only run if no other matches were found in that Subject.
+
+---
+
 ## Target Execution
 
 Each Match node contains a collection of **Target nodes**.
