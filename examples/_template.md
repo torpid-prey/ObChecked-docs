@@ -8,35 +8,33 @@ Explain the approach used to detect it.
 
 ## Rule Structure
 
-Subject  
-<column>
+Subject:
+`COLUMN NAME`
 
-Match  
-<Exact / Like / Regex>
+Match:
+Describe the match and provide examples, e.g. `PLATE`
 
-Pattern (if regex)
+Target:
+`CELL NAME` [example value]
 
-<regex here>
+Conditions:
+(optional, but describe the condition if present) 
 
-Target  
-<column>
+## Minimal Tree
 
-Condition  
-(optional)
-
-## Rule Diagram
-
-Group
-└─ Subject: <column>
-   └─ Match: <type>
-      └─ Target: <cell>
-         └─ Condition: <condition>
-
+    Subject: COLUMN NAME
+      Match: PATTERN
+        Target: CELL [Value]
+           Condition: LeftValue = RightValue
+           
 ## Example Results
 
-| Input | Value | Result |
+| Subject Value | Cell Value | Result |
 |--|--|--|
-| example | example | OK |
+| example | example | Okay |
+| example | example | Warn |
+| example | example | Error |
+
 
 ## Explanation
 
