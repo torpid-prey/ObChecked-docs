@@ -1,5 +1,7 @@
 # Repository Index
 
+Documentation entry point: [README](README.md)
+
 This page lists documentation, configuration, audit files, and screenshots in the repository.
 
 ## Configuration

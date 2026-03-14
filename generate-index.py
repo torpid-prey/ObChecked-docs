@@ -95,6 +95,8 @@ def write_index() -> None:
     lines: list[str] = []
     lines.append("# Repository Index")
     lines.append("")
+    lines.append("Documentation entry point: [README](README.md)") 
+    lines.append("")
     lines.append("This page lists documentation, configuration, audit files, and screenshots in the repository.")
     lines.append("")
 

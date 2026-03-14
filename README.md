@@ -44,6 +44,8 @@ This repository contains documentation and examples for **ObChecked**.
   - [Common Rule Examples](examples/common/overview.md)
 - Troubleshooting
   - What on earth could possibly go wrong?
+- [Complete file list](docs-index.md)
+
 
 The source code for ObChecked is not public.
 
