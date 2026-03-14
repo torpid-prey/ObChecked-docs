@@ -5,15 +5,17 @@
 <table>
 <tr>
 <td width="120">
+<!-- ![ObChecked Logo](screenshots/obchecked-logo.png) -->
 
-![ObChecked Logo](screenshots/obchecked-logo.png)
+<img src="screenshots/obchecked-logo.png" width="800">
 
 </td>
 <td>
 
-Welcome to the documentation for **ObChecked**.
+Welcome to the documentation for <b>ObChecked</b>.
 
-This repository contains documentation and examples for **ObChecked**.
+This repository contains documentation and examples for <b>ObChecked</b>.
+
 </td>
 </tr>
 </table>
