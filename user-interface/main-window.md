@@ -6,12 +6,10 @@ Most operations are performed using the toolbar above the grid.
 
 <img src="..\screenshots/interface-main-window.png" width="800">
 
-Jump to each number:
+*The numbered screenshot can be used here to visually identify each control.*
 
 | [(1)](#1-fetch) | [(2)](#2-clear) | [(3)](#3-remove) | [(4)](#4-toggle-filters) | [(5)](#5-filter-by-severity) | [(6)](#6-severity-value) | [(7)](#7-info-panel-toggle) | [(8)](#8-filter-panel-toggle) | [(9)](#9-highlight-rows) | [(10)](#10-zoom-to-objects) | [(11)](#11-select-child-objects) | [(12)](#12-select-father-components) | [(13)](#13-select-in-model) |
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
-
-*The numbered screenshot can be used here to visually identify each control.*
 
 ---
 
