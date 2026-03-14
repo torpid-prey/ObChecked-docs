@@ -14,7 +14,7 @@
 
 Welcome to the documentation for <b>ObChecked</b>.
 
-This repository contains documentation and examples for <b>ObChecked</b>.
+<br>This repository contains documentation and examples for <b>ObChecked</b>.</br>
 
 </td>
 </tr>
