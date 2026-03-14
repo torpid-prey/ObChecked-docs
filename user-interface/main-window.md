@@ -24,6 +24,8 @@ Fetch will:
 - retrieve all defined column values
 - evaluate audit rules for each row
 
+[Top](main-window.md#main-window)
+
 ---
 
 ## 2. Clear
@@ -33,6 +35,8 @@ Clear removes all rows from the grid.
 This action also reloads the **current column schema**.
 
 This can be useful when another user has modified shared column definitions and the schema needs to be refreshed.
+
+[Top](main-window.md#main-window)
 
 ---
 
@@ -44,6 +48,8 @@ This does not affect the Tekla model.
 
 This should not be confused with filters, which only hide rows temporarily.
 
+[Top](main-window.md#main-window)
+
 ---
 
 # Filtering
@@ -54,6 +60,8 @@ Enable Filters toggles whether the active filter list is applied to the grid.
 
 When disabled, all rows are shown regardless of the filters defined in the filter panel.
 
+[Top](main-window.md#main-window)
+
 ---
 
 ## 5. Filter by Severity
@@ -61,6 +69,8 @@ When disabled, all rows are shown regardless of the filters defined in the filte
 Filter Severity adds a filter that hides rows whose **maximum audit flag severity** is below the selected value.
 
 The filter works together with the **Severity Value** control.
+
+[Top](main-window.md#main-window)
 
 ---
 
@@ -79,6 +89,8 @@ If Severity Value is set to **3** and Filter Severity is enabled:
 
 Changing the severity value updates the filter threshold immediately.
 
+[Top](main-window.md#main-window)
+
 ---
 
 # Panels
@@ -93,6 +105,8 @@ The Info Panel displays:
 - the audit message associated with the cell
 - button descriptions when hovering over toolbar controls
 
+[Top](main-window.md#main-window)
+
 ---
 
 ## 8. Filter Panel Toggle
@@ -100,6 +114,8 @@ The Info Panel displays:
 This button shows or hides the **Filter Panel**.
 
 The Filter Panel allows users to define custom column filters.
+
+[Top](main-window.md#main-window)
 
 ---
 
@@ -138,6 +154,8 @@ Each filter consists of:
 ### 8.8 Clear Selection Filter
 - Removes the working set and returns the grid to the full dataset.
 
+[Top](main-window.md#main-window)
+
 ---
 
 # Model Interaction
@@ -150,6 +168,8 @@ This does not fetch or update object values.
 
 It simply locates the rows already present in the dataset.
 
+[Top](main-window.md#main-window)
+
 ---
 
 # Selection objects in Tekla model
@@ -160,6 +180,8 @@ It simply locates the rows already present in the dataset.
 
 This is a toggle. When enabled, the model view will zoom to the selected objects when selecting row objects.
 
+[Top](main-window.md#main-window)
+
 ---
 
 ## 11. Select Child Objects
@@ -169,11 +191,15 @@ This is a toggle. When enabled, selecting an object will also select its related
 - cuts
 - welds
 
+[Top](main-window.md#main-window)
+
 ---
 
 ## 12. Select Father Components
 
 This is a toggle. When enabled, the component cone of a selected object will also be selected when selecting row objects.
+
+[Top](main-window.md#main-window)
 
 ---
 
@@ -182,6 +208,8 @@ This is a toggle. When enabled, the component cone of a selected object will als
 This button selects the currently highlighted rows in the Tekla model.
 
 Additional behaviours are affected by the selection toggles described above.
+
+[Top](main-window.md#main-window)
 
 ---
 
