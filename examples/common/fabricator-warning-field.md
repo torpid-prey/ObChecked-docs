@@ -2,7 +2,7 @@
 
 ## Problem
 
-In this system. the `fabricator` field is used to mark special warnings such as parts on hold.
+In this system, the `fabricator` field is used to mark special warnings such as parts on hold.
 
 > Any part property can be used here, but examples here use `fabricator`. 
 
