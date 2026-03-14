@@ -30,6 +30,8 @@ If **components** are selected, ObChecked automatically expands them and include
 
 This ensures that no relevant objects are missed during validation.
 
+> Currently `Select assemblies` is not supported. Only `Select Components` or `Select parts in components` will return part objects.
+
 ---
 
 # Step 2 — Fetch the objects
