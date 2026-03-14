@@ -67,7 +67,9 @@ These rules use a wildcard subject column and are useful for detecting global mo
 - objects marked as on hold
 - other project-wide conditions
 
-These examples will be added in a future update.
+See:
+
+- [Common Rule Examples](common/overview.md)
 
 ---
 
@@ -77,11 +79,11 @@ The following audit files are installed with ObChecked and form the basis for th
 
 | File | Purpose |
 |--|--|
-| `Parts_PROFILE.aud` | Profile-specific audit rules |
-| `Parts_NAME.aud` | Object name classification rules |
-| `Parts_OTHER.aud` | Global checks applied to all objects |
+| [`Parts_PROFILE.aud`](system-files/Parts_PROFILE.aud) | Profile-specific audit rules |
+| [`Parts_NAME.aud`](system-files/Parts_NAME.aud) | Object name classification rules |
+| [`Parts_PHASE_OTHERS.aud`](system-files/Parts_PHASE_OTHERS.aud) | Global checks applied to all objects |
 
-These files can be found here:
+These and other example files can be found here:
 
 `examples/system-files/`
 
