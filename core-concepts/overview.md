@@ -78,7 +78,7 @@ This is to allow several Target nodes for the *same cell*, but are instructed to
 
 For example, available stock lengths of a profile may be dependent on the profile depth, `UB200*18` vs `UB310*40`. By using a different condition under each Target node, you can control which max length rules applies to which profile depth.
 
-See: `condition.md` *coming soon*
+See: [Condition](condition.md)
 
 ---
 
