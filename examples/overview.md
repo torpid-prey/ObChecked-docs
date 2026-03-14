@@ -8,6 +8,28 @@ The examples are organised by the **subject column** used in the audit rules.
 
 ---
 
+# Rule Design Patterns
+
+These offer ways to think about designing your own custom rules rather than relying on examples alone.
+
+1. Recognition Pattern
+2. Validation Pattern
+3. Extraction Pattern (Regex)
+4. Conditional Validation Pattern
+5. Fallback Match Patterns
+6. Global Match Pattern
+7. Direct Property Pattern
+8. Severity Override Pattern
+
+The below examples groups are great for understanding the default set of audit files and the logic behind each node.
+
+But to understand the rule pattern behind each example will help you create rules that don't fit a current example.
+
+See:
+- [Rule Design Patterns](rule-design-patterns.md)
+
+---
+
 # Example Groups
 
 ## Profile Rules
@@ -56,7 +78,7 @@ See:
 
 ---
 
-## Common Rules *(Coming Soon)*
+## Common Rules
 
 Common rules apply to **all objects**, regardless of their profile or name.
 
