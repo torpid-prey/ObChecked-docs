@@ -40,7 +40,7 @@ These patterns can be used to design additional rules that do not depend on a sp
 - [Run checks on all rows using a wildcard subject](run-checks-on-all-rows-using-a-wildcard-subject.md)
 - [Phase others should be empty](phase-others-should-be-empty.md)
 - [User phase must match phase number](user-phase-must-match-phase-number.md)
-- [On hold warning field should normally be empty](on-hold-warning-field-should-normally-be-empty.md)
+- [On Hold warning field should normally be empty](fabricator-warning-field.md)
 - [Material determines valid finish](material-determines-valid-finish.md)
 
 ---
