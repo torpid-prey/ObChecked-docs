@@ -27,7 +27,7 @@ These patterns can be used to design additional rules for other modelling conven
 
 ## Example Rules
 
-- [Recognised assembly names set prefix and class](recognized-assembly-name-sets-prefix-and-class.md)
+- [Recognised assembly names set prefix and class](recognised-assembly-name-sets-prefix-and-class.md)
 - [Welded part names should not be main parts](welded-part-name-should-not-be-main-part.md)
 - [Name determines valid profile](name-determines-valid-profile.md)
 - [Vertical part names require correct rotation](vertical-part-name-requires-correct-rotation.md)
