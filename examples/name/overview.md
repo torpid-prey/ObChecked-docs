@@ -38,6 +38,16 @@ These patterns can be used to design additional rules for other modelling conven
 
 The rules used in these examples are based on the system audit file:
 
-`examples/system-files/Parts_NAME.aud`
+[Parts_NAME.aud](../system-files/Parts_NAME.aud)
 
 This file contains the complete set of name-based audit rules installed with ObChecked.
+
+---
+
+## Related Documentation
+
+- Core Concepts → [Subject Node](../../core-concepts/subject.md)
+- Core Concepts → [Match Node](../../core-concepts/match.md)
+- Core Concepts → [Target Node](../../core-concepts/target.md)
+- Core Concepts → [Condition Node](../../core-concepts/condition.md)
+- User Interface → [Audit Definition Editor](../../user-interface/audit-definition-editor.md)
