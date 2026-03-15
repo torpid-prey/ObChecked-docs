@@ -1,4 +1,4 @@
-[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main](../user-interface/main-window.md) | [Audits](../user-interface/audit-definition-editor.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
 
 ---
 
@@ -106,7 +106,7 @@ Providing this information makes it easier to reproduce and diagnose the problem
 
 ## Additional Resources
 
-- User Interface → [Main Window](../user-interface/main-window.md)
+- User Interface → [Main](../user-interface/main-window.md)
 - Core Concepts → [Subject Node](../core-concepts/subject.md)
 - Core Concepts → [Match Node](../core-concepts/match.md)
 - Core Concepts → [Target Node](../core-concepts/target.md)

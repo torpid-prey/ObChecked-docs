@@ -1,4 +1,4 @@
-[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main](../user-interface/main-window.md) | [Audits](../user-interface/audit-definition-editor.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
 
 ---
 
@@ -8,7 +8,7 @@ The ObChecked main window is where objects are fetched from the Tekla model, dis
 
 Most operations are performed using the toolbar above the grid.
 
-<!-- ![Main Window](../screenshots/interface-main-window.png) -->
+<!-- ![Main](../screenshots/interface-main-window.png) -->
 
 <a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png">
   <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png" width="1000">
