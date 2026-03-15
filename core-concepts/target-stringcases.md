@@ -1,4 +1,7 @@
-# Target Type: StringCases
+---
+layout: default
+title: Target Type — StringCases
+---
 
 ## Purpose
 

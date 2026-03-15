@@ -1,4 +1,7 @@
-# Examples Overview
+---
+layout: default
+title: Examples Overview
+---
 
 The examples section demonstrates how the audit system can be used to detect modelling issues and enforce modelling conventions.
 

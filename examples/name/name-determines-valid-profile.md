@@ -1,4 +1,7 @@
-# Rule: Name Determines Valid Profile
+---
+layout: default
+title: Rule — Name Determines Valid Profile
+---
 
 ## Problem
 Certain object names imply that only specific profile types should be used.

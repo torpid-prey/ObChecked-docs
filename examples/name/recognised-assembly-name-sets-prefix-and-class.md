@@ -1,4 +1,7 @@
-# Rule: Recognised Assembly Names Set Prefix and Class
+---
+layout: default
+title: Rule — Recognised Assembly Names Set Prefix and Class
+---
 
 ## Problem
 Certain object names represent specific assembly types.

@@ -1,4 +1,7 @@
-# Length by Profile Depth
+---
+layout: default
+title: Length by Profile Depth
+---
 
 ## Problem
 

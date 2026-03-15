@@ -1,4 +1,7 @@
-# Name Rule Examples
+---
+layout: default
+title: Name Rule Examples
+---
 
 The **NAME** column is one of the most commonly used subject columns when auditing model data.
 

@@ -1,4 +1,7 @@
-# Target Type: Direct
+---
+layout: default
+title: Target Type — Direct
+---
 
 ## Purpose
 

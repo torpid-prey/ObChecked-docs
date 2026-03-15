@@ -1,4 +1,7 @@
-# Troubleshooting
+---
+layout: default
+title: Troubleshooting
+---
 
 This page lists common issues that may occur when using **ObChecked** and provides guidance for resolving them.
 
@@ -19,7 +22,7 @@ Before investigating a specific issue, confirm the following:
 - The correct **column configuration** is active
 - The required **audit definition files** are present
 - Ensure the **source location** matches expectation
-    - In the title bar, it should show *ObChecked (Root) | (Firm) | (Model)*
+    - In the title bar, it should show *ObChecked (Root) / (Firm) / (Model)*
     - This shows which location is **active**. If this is not correct, review configuration.
 
 If these conditions are not met, the grid may appear empty or audit results may not display correctly.
@@ -27,6 +30,14 @@ If these conditions are not met, the grid may appear empty or audit results may 
 ---
 
 ## Typical Issues
+
+### How do I access columns and audit definitions?
+
+Access all settings via the menu in the bottom right corner:
+
+![Main Menu](../screenshots/main-context-menu.png)
+
+---
 
 ### No rows appear after pressing Fetch
 

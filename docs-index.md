@@ -1,4 +1,7 @@
-# Repository Index
+---
+layout: default
+title: Repository Index
+---
 
 Documentation entry point: [README](README.md)
 

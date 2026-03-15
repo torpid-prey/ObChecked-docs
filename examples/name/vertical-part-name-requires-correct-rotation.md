@@ -1,4 +1,7 @@
-# Rule: Vertical Part Name Requires Correct Rotation
+---
+layout: default
+title: Rule — Vertical Part Name Requires Correct Rotation
+---
 
 ## Problem
 Certain part names represent vertical members such as columns or droppers.

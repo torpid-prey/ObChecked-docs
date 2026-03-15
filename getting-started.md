@@ -1,4 +1,7 @@
-# Getting Started with ObChecked
+---
+layout: default
+title: Getting Started with ObChecked
+---
 
 ## Purpose
 

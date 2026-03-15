@@ -1,4 +1,7 @@
-# CHS Material Grade by Depth and Thickness
+---
+layout: default
+title: CHS Material Grade by Depth and Thickness
+---
 
 ## Problem
 

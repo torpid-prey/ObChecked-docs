@@ -1,4 +1,7 @@
-# Core Concepts
+---
+layout: default
+title: Core Concepts
+---
 
 ObChecked audits are built using a structured rule hierarchy.
 

@@ -1,4 +1,7 @@
-# CHS Fallback Material Rules with `onFirstMatch`
+---
+layout: default
+title: CHS Fallback Material Rules with `onFirstMatch`
+---
 
 ## Problem
 

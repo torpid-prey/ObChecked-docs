@@ -1,4 +1,7 @@
-# Rule Design Patterns
+---
+layout: default
+title: Rule Design Patterns
+---
 
 The examples in this documentation demonstrate how audit rules can be structured to detect modelling issues.  
 While each example focuses on a specific scenario, most rules follow a small number of **design patterns**.

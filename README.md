@@ -1,6 +1,11 @@
-# ObChecked Documentation 
+---
+layout: default
+title: ObChecked Documentation 
+---
 
-*Documentation and usage guide for the Tekla Structures Extension — ObChecked, Published By Chloe Garcia*
+> *Published By Chloe Garcia*
+
+*Documentation and usage guide for the Tekla Structures Extension — ObChecked Version 2*
 
 <table>
 <tr>

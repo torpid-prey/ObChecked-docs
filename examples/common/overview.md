@@ -1,4 +1,7 @@
-# Common Rule Examples
+---
+layout: default
+title: Common Rule Examples
+---
 
 The **Common** examples demonstrate audit rules that apply broadly across the model rather than being tied to a single profile family or object name.
 

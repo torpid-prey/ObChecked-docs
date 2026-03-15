@@ -1,4 +1,7 @@
-# Grating Material Substring Match
+---
+layout: default
+title: Grating Material Substring Match
+---
 
 ## Problem
 

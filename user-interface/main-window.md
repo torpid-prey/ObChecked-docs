@@ -1,4 +1,7 @@
-# Main Window
+---
+layout: default
+title: Main Window
+---
 
 The ObChecked main window is where objects are fetched from the Tekla model, displayed in the grid, and evaluated against audit rules.
 
@@ -6,8 +9,8 @@ Most operations are performed using the toolbar above the grid.
 
 <!-- ![Main Window](../screenshots/interface-main-window.png) -->
 
-<a href="../screenshots/interface-main-window.png">
-  <img src="../screenshots/interface-main-window.png" width="1000">
+<a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png">
+  <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png" width="1000">
 </a>
 
 <i>The numbered screenshot can be used here to visually identify each control.</i>

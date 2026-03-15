@@ -1,4 +1,7 @@
-# Condition Node
+---
+layout: default
+title: Condition Node
+---
 
 ## Purpose
 
@@ -100,7 +103,7 @@ MatchIndex: 0
 The **Matches** tool in the Audit Definitions editor can display the extracted match groups for selected rows.  
 This helps determine which MatchIndex values correspond to each captured group.
 
-<img src="../screenshots/regex-match-groups.png" width="600">
+<img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/regex-match-groups.png" width="600">
 
 *Select some rows in the main table **and** the corresponding match node, and the **Matches** tool will show matching rows.*
 

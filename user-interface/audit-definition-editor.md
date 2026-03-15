@@ -1,8 +1,11 @@
-# Audit Definition Editor
+---
+layout: default
+title: Audit Definition Editor
+---
 
 <!-- ![Audit Definition Window](../screenshots/interface-audit-definition.png) -->
-<a href="../screenshots/interface-audit-definition.png">
-  <img src="../screenshots/interface-audit-definition.png" width="800">
+<a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png">
+  <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png" width="800">
 </a>
 
 The **Audit Definition Editor** is used to create and modify audit rules.  

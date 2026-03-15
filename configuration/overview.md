@@ -1,4 +1,7 @@
-# Configuration Overview
+---
+layout: default
+title: Configuration Overview
+---
 
 Before auditing rules can be applied, ObChecked must know **where configuration files are stored** and **how column data should be interpreted**. Configuration determines how the application reads object properties, where shared definitions are stored, and how rules can be applied consistently across users and projects.
 

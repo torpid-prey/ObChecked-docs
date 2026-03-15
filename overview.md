@@ -1,4 +1,7 @@
-# ObChecked Documentation
+---
+layout: default
+title: ObChecked Documentation
+---
 
 ## Overview
 

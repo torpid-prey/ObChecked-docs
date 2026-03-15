@@ -1,4 +1,7 @@
-# Rule: Material Determines Valid Finish
+---
+layout: default
+title: Rule — Material Determines Valid Finish
+---
 
 ## Problem
 

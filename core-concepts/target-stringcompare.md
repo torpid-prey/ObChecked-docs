@@ -1,4 +1,7 @@
-# Target Type: StringCompare
+---
+layout: default
+title: Target Type — StringCompare
+---
 
 ## Purpose
 

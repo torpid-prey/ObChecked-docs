@@ -1,4 +1,7 @@
-# Rule: Welded Part Name Should Not Be Main Part
+---
+layout: default
+title: Rule — Welded Part Name Should Not Be Main Part
+---
 
 ## Problem
 Some object names represent secondary components that should not be used as the main part of an assembly.

@@ -1,4 +1,7 @@
-# Rule: User Phase Must Match Phase Number
+---
+layout: default
+title: Rule — User Phase Must Match Phase Number
+---
 
 ## Problem
 

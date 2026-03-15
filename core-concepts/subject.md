@@ -1,4 +1,7 @@
-# Subject Node
+---
+layout: default
+title: Subject Node
+---
 
 ## Purpose
 

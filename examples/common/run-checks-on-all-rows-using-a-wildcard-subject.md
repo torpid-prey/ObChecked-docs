@@ -1,4 +1,7 @@
-# Rule: Run Checks on All Rows
+---
+layout: default
+title: Rule — Run Checks on All Rows
+---
 
 ## Problem
 

@@ -1,4 +1,7 @@
-# Rule: Phase Others Should Be Empty
+---
+layout: default
+title: Rule — Phase Others Should Be Empty
+---
 
 ## Problem
 

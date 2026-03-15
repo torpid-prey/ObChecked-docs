@@ -1,4 +1,7 @@
-# Fixed Material by Profile Family
+---
+layout: default
+title: Fixed Material by Profile Family
+---
 
 ## Problem
 

@@ -1,4 +1,7 @@
-# Column Definitions
+---
+layout: default
+title: Column Definitions
+---
 
 Column definitions determine which Tekla object properties appear in the ObChecked grid and how those values are interpreted during auditing.
 
@@ -6,7 +9,7 @@ Every value that can be evaluated by an audit rule must first exist as a **colum
 
 Because of this, column definitions form the foundation of the ObChecked auditing system.
 
-<img src="../screenshots/column-definition.png" width="600">
+<img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/column-definition.png" width="600">
 
 - Insert/Append and Cell/Row **Editor Toggles** in the top right corner.
 - **Row Modify** options along the right-hand side.

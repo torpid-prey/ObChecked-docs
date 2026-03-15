@@ -1,4 +1,7 @@
-# Rule: Warning Field Should Normally Be Empty
+---
+layout: default
+title: Rule — Warning Field Should Normally Be Empty
+---
 
 ## Problem
 
