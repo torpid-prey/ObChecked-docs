@@ -1,7 +1,8 @@
+[Contents](../../README.md) | [Concepts](../../core-concepts/overview.md) | [Configuration](../../configuration/overview.md) | [Main Window](../../user-interface/main-window.md) | [Audits](../../user-interface/audits-window.md) | [Examples](../../examples/overview.md) | [Troubleshooting](../../troubleshooting/overview.md)
+
 ---
-layout: default
-title: Fixed Material by Profile Family
----
+
+# Fixed Material by Profile Family
 
 ## Problem
 

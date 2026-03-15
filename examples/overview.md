@@ -1,7 +1,8 @@
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+
 ---
-layout: default
-title: Examples Overview
----
+
+# Examples Overview
 
 The examples section demonstrates how the audit system can be used to detect modelling issues and enforce modelling conventions.
 

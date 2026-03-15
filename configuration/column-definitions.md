@@ -1,3 +1,7 @@
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+
+---
+
 # Column Definitions
 
 Column definitions determine which Tekla object properties appear in the ObChecked grid and how those values are interpreted during auditing.

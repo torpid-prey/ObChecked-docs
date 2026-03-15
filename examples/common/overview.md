@@ -1,7 +1,8 @@
+[Contents](../../README.md) | [Concepts](../../core-concepts/overview.md) | [Configuration](../../configuration/overview.md) | [Main Window](../../user-interface/main-window.md) | [Audits](../../user-interface/audits-window.md) | [Examples](../../examples/overview.md) | [Troubleshooting](../../troubleshooting/overview.md)
+
 ---
-layout: default
-title: Common Rule Examples
----
+
+# Common Rule Examples
 
 The **Common** examples demonstrate audit rules that apply broadly across the model rather than being tied to a single profile family or object name.
 

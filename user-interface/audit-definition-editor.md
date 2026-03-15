@@ -1,7 +1,8 @@
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+
 ---
-layout: default
-title: Audit Definition Editor
----
+
+# Audit Definition Editor
 
 <!-- ![Audit Definition Window](../screenshots/interface-audit-definition.png) -->
 <a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png">

@@ -1,7 +1,8 @@
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+
 ---
-layout: default
-title: Rule Design Patterns
----
+
+# Rule Design Patterns
 
 The examples in this documentation demonstrate how audit rules can be structured to detect modelling issues.  
 While each example focuses on a specific scenario, most rules follow a small number of **design patterns**.

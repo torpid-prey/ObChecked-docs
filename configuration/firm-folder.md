@@ -1,3 +1,7 @@
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+
+---
+
 # Firm Folder Setup
 
 ObChecked supports using a **shared firm folder** so configuration files can be maintained centrally and accessed by multiple users.

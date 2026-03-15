@@ -1,3 +1,7 @@
+[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main Window](../user-interface/main-window.md) | [Audits](../user-interface/audits-window.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)
+
+---
+
 # Configuration Overview
 
 Before auditing rules can be applied, ObChecked must know **where configuration files are stored** and **how column data should be interpreted**. Configuration determines how the application reads object properties, where shared definitions are stored, and how rules can be applied consistently across users and projects.

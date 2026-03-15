@@ -1,7 +1,8 @@
+[Contents](../../README.md) | [Concepts](../../core-concepts/overview.md) | [Configuration](../../configuration/overview.md) | [Main Window](../../user-interface/main-window.md) | [Audits](../../user-interface/audits-window.md) | [Examples](../../examples/overview.md) | [Troubleshooting](../../troubleshooting/overview.md)
+
 ---
-layout: default
-title: Rule — Welded Part Name Should Not Be Main Part
----
+
+# Rule — Welded Part Name Should Not Be Main Part
 
 ## Problem
 Some object names represent secondary components that should not be used as the main part of an assembly.
