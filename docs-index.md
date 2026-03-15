@@ -1,7 +1,3 @@
-[Contents](README.md) | [Concepts](core-concepts/overview.md) | [Configuration](configuration/overview.md) | [Main](user-interface/main-window.md) | [Audits](user-interface/audit-definition-editor.md) | [Examples](examples/overview.md) | [Troubleshooting](troubleshooting/overview.md)
-
----
-
 # Repository Index
 
 Documentation entry point: [README](README.md)
@@ -35,6 +31,7 @@ This page lists documentation, configuration, audit files, and screenshots in th
 
 ### Common
 
+- [Assy Prefix Must Start With Phase Number (Doc)](examples/common/assy-prefix-must-start-with-phase-number.md)
 - [Fabricator Warning Field (Doc)](examples/common/fabricator-warning-field.md)
 - [Material Determines Valid Finish (Doc)](examples/common/material-determines-valid-finish.md)
 - [Overview (Doc)](examples/common/overview.md)
