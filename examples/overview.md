@@ -2,13 +2,18 @@
 
 ---
 
-# Examples Overview
+# Examples
 
 The examples section demonstrates how the audit system can be used to detect modelling issues and enforce modelling conventions.
 
 Each example explains the **problem**, the **strategy used to detect it**, and the **rule structure** required to implement it.
 
 The examples are organised by the **subject column** used in the audit rules.
+
+- [Rule Design Patterns](rule-design-patterns.md)
+- [Profile Rule Examples](profile/overview.md)
+- [Name Rule Examples](name/overview.md)
+- [Common Rule Examples](common/overview.md)
 
 ---
 
@@ -101,17 +106,13 @@ See:
 
 # System Audit Files
 
-The following audit files are installed with ObChecked and form the basis for the example rules.
+The following audit files plus many others are installed with ObChecked and form the basis for the example rules.
 
 | File | Purpose |
 |--|--|
 | [`Parts_PROFILE.aud`](system-files/Parts_PROFILE.aud) | Profile-specific audit rules |
 | [`Parts_NAME.aud`](system-files/Parts_NAME.aud) | Object name classification rules |
 | [`Parts_PHASE_OTHERS.aud`](system-files/Parts_PHASE_OTHERS.aud) | Global checks applied to all objects |
-
-These and other example files can be found here:
-
-`examples/system-files/`
 
 They are included so users can review the full audit definitions used by the example rules.
 
