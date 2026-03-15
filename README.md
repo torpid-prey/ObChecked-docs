@@ -5,7 +5,6 @@
 <table>
 <tr>
 <td width="120">
-<!-- ![ObChecked Logo](screenshots/obchecked-logo.png) -->
 
 <img src="screenshots/obchecked-logo.png" width="100">
 
@@ -14,14 +13,14 @@
 
 Welcome to the documentation for <b>ObChecked</b>.
 <br>
-
+<br>
 This repository contains documentation and examples for <b>ObChecked</b>.
 
 </td>
 </tr>
 </table>
 
-## Documentation
+## Documentation Contents
 
 - [Overview](overview.md)
 - [Getting Started](getting-started.md)
@@ -47,10 +46,12 @@ This repository contains documentation and examples for <b>ObChecked</b>.
   - [Profile Rule Examples](examples/profile/overview.md)
   - [Name Rule Examples](examples/name/overview.md)
   - [Common Rule Examples](examples/common/overview.md)
-- Troubleshooting
-  - What on earth could possibly go wrong?
+- [Troubleshooting](troubleshooting/overview.md)
 - [Complete file list](docs-index.md)
 
+---
+
+> ObChecked is a signed extension and is distributed as a verified build.
 
 The source code for ObChecked is not public.
 

@@ -14,8 +14,9 @@ EXCLUDE_FILES = {
     "generate_docs_index.py",
     "generate_sitemap.py",
     "google4ea0181efa2e0b16.html",
-    "robots.txt"
-    "sitemap.xml"
+    "robots.txt",
+    "sitemap.xml",
+    "_config.yml",
 }
 
 EXCLUDE_DIRS = {

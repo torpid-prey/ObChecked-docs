@@ -1,0 +1,69 @@
+title: ObChecked Documentation
+description: Documentation and rule examples for ObChecked — a Tekla model object auditing tool.
+url: https://torpid-prey.github.io
+baseurl: /ObChecked-docs
+
+author:
+  name: Chloe Garcia
+  github: torpid-prey
+
+repository: torpid-prey/ObChecked-docs
+
+keywords:
+  - ObChecked
+  - Chloe Software
+  - Chloe Garcia
+  - Tekla
+  - Tekla Structures
+  - Tekla auditing
+  - Tekla extension
+  - Tekla plugin
+  - model auditing
+  - model checking
+  - object check
+  - part check
+  - bolt check
+  - steel detailing
+  - Tekla QA
+  - BIM validation
+
+lang: en
+
+# Theme (GitHub Pages supported)
+theme: jekyll-theme-cayman
+
+# Markdown engine
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Default metadata for pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude files from site build
+exclude:
+  - generate_docs_index.py
+  - generate_sitemap.py
+  - .gitkeep
+  
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-sitemap
+
+# remove .html from web pages
+permalink: pretty
+
+# Social / project links
+github:
+  repository_url: https://github.com/torpid-prey/ObChecked-docs
+
+# Sitemap settings
+sitemap:
+  filename: sitemap.xml
+
+# Enable GitHub Pages metadata
+github_metadata: true
