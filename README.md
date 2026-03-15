@@ -53,7 +53,12 @@ This repository contains documentation and examples for <b>ObChecked</b>.
   - [Name Rule Examples](examples/name/overview.md)
   - [Common Rule Examples](examples/common/overview.md)
 - [Troubleshooting](troubleshooting/overview.md)
-- [Complete file list](docs-index.md)
+
+---
+
+> This index is generated automatically in case any above links are broken.
+
+- [Complete Index](docs-index.md)
 
 ---
 

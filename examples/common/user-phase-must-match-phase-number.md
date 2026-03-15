@@ -2,7 +2,7 @@
 
 ---
 
-# Rule — User Phase Must Match Phase Number
+# Rule — UserPhase Must Match PhaseNumber
 
 ## Problem
 

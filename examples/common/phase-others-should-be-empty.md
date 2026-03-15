@@ -2,7 +2,7 @@
 
 ---
 
-# Rule — Phase Others Should Be Empty
+# Rule — PhaseOthers Should Be Empty
 
 ## Problem
 
