@@ -1,7 +1,4 @@
----
-layout: default
-title: File Locations
----
+# File Locations
 
 ObChecked allows configuration files to be stored in several different locations depending on how the configuration should be shared.
 

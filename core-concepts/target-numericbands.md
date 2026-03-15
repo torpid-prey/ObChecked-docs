@@ -1,7 +1,4 @@
----
-layout: default
-title: Target Type — NumericBands
----
+# Target Type — NumericBands
 
 ## Purpose
 

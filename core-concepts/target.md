@@ -1,7 +1,4 @@
----
-layout: default
-title: Target Node
----
+# Target Node
 
 ## Purpose
 

@@ -1,7 +1,4 @@
----
-layout: default
-title: Column Definitions
----
+# Column Definitions
 
 Column definitions determine which Tekla object properties appear in the ObChecked grid and how those values are interpreted during auditing.
 

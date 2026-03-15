@@ -1,7 +1,4 @@
----
-layout: default
-title: ObChecked Documentation 
----
+# ObChecked Documentation 
 
 > *Published By Chloe Garcia*
 

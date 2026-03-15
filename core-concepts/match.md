@@ -1,7 +1,4 @@
----
-layout: default
-title: Match Node
----
+# Match Node
 
 ## Purpose
 

@@ -1,7 +1,4 @@
----
-layout: default
-title: Condition Node
----
+# Condition Node
 
 ## Purpose
 

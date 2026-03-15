@@ -1,7 +1,4 @@
----
-layout: default
-title: Target Type — NumericCompare
----
+# Target Type — NumericCompare
 
 ## Purpose
 

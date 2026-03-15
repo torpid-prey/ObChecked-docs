@@ -1,7 +1,4 @@
----
-layout: default
-title: Firm Folder Setup
----
+# Firm Folder Setup
 
 ObChecked supports using a **shared firm folder** so configuration files can be maintained centrally and accessed by multiple users.
 
