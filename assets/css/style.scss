@@ -3,6 +3,12 @@
   top: 0;
   z-index: 1000;
   background: white;
+  display: block;
+}
+
+.sticky-nav table {
+  width: 100%;
+  text-align: center;
 }
 
 .sticky-nav th,
