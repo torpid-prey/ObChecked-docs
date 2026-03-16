@@ -9,13 +9,13 @@
 
 # Audit Definition Editor
 
+The **Audit Definition Editor** is used to create and modify audit rules.  
+Rules are organised in a hierarchical structure that defines how each row in the grid is evaluated.
+
 <!-- ![Audit Definition Window](../screenshots/interface-audit-definition.png) -->
 <a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png">
   <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png" width="800">
 </a>
-
-The **Audit Definition Editor** is used to create and modify audit rules.  
-Rules are organised in a hierarchical structure that defines how each row in the grid is evaluated.
 
 This page describes the **user interface** used to create audit rules.  
 For detailed explanations of the underlying logic, see the Core Concepts pages:
