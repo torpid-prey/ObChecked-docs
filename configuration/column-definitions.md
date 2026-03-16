@@ -106,7 +106,7 @@ Examples from the default configuration include:
 | `ROTATION` | Not available from ReportProperty. |
 | `ANGLE` | Not available from ReportProperty. |
 | `ASSY_PREFIX` | ReportProperty `ASSEMBLY_PREFIX` returns the resolved value from its welded assembly. Direct `ASSY_PREFIX` returns the value from the part properties. |
-| `RADIUS` | ReportProperty `RADIUS` only returns the curved beam Radius field. Direct `RADIUS` also calculates radius from 3 points of polybeam (if available, and if node is set to `Rounding` or `Arc Point`) and returns first non-zero result. |
+| `RADIUS` | ReportProperty `RADIUS` only returns the curved beam Radius field. Direct `RADIUS` also calculates radius from 3 points of polybeam (if available, and if node is set to `Rounding` or `Arc Point`) and returns first non-zero result.  Direct `RADIUS` also returns a token minimum thickness + 1 for `BentPlate` types (Available from Version 2.2)|
 | `PROFILE` | ReportProperty `PROFILE` returns the resolved profile using fltprops.inp and may change PL to FL depending on settings. Direct `PROFILE` returns the value from the part properties. |
 | `PHASE.NAME` | Returned from model object before converting to part, bolt, or component. Cached to optimise speed. |
 | `PHASE.NUMBER` | Returned from model object before converting to part, bolt, or component. Cached to optimise speed. |
