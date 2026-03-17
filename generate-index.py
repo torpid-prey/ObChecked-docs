@@ -98,9 +98,13 @@ def write_index() -> None:
     grouped = group_files(files)
 
     lines: list[str] = []
-    lines.append("# Repository Index")
+
+    lines.append("---")
+    lines.append("---")
     lines.append("")
-    lines.append("Documentation entry point: [README](README.md)") 
+    lines.append("{% include nav.html %}")
+    lines.append("")
+    lines.append("# Repository Index")
     lines.append("")
     lines.append("This page lists documentation, configuration, audit files, and screenshots in the repository.")
     lines.append("")

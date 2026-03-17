@@ -1,6 +1,9 @@
-# Repository Index
+---
+---
 
-Documentation entry point: [README](README.md)
+{% include nav.html %}
+
+# Repository Index
 
 This page lists documentation, configuration, audit files, and screenshots in the repository.
 
@@ -72,6 +75,7 @@ This page lists documentation, configuration, audit files, and screenshots in th
 ## Root
 
 - [Getting Started (Doc)](getting-started.md)
+- [Index (Doc)](index.md)
 - [Overview (Doc)](overview.md)
 - [Readme (Doc)](README.md)
 
