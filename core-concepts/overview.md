@@ -2,6 +2,7 @@
 ---
 
 {% include nav.html %}
+{% include nav_concepts.html %}
 
 # Core Concepts
 
