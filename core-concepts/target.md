@@ -8,6 +8,7 @@
 # Target Node
 
 {% include nav_concepts.html %}
+
 {% include nav_concepts_targets.html %}
 
 ## Purpose
