@@ -13,8 +13,8 @@
 
 ObChecked reads configuration from three locations, in order of increasing specificity:
 
-- [Application Root](#application-root) – inside `Environments/Common/`
-- [XS_FIRM](#firm-folder) – if defined in Tekla advanced options
+- [Application Root](#application-root) – inside `Environments\common\`
+- [Firm Folder](#firm-folder) – if defined in Tekla advanced options
 - [Model Folder](#model-folder) – the current model directory
 
 These locations follow standard Tekla conventions, where more specific locations override broader ones.
@@ -41,11 +41,22 @@ To support this, ObChecked separates configuration into layers so that shared of
 The application root is the default configuration location bundled with ObChecked.  
 If no firm or model configuration is present, ObChecked will fall back to this location.
 
+This location is usually found inside the current `Envrionments\common\extensions\ObChecked2\`
+
 This layer is typically used for:
 
 - personal defaults
 - baseline column definitions
 - development or testing setups
+
+Install of ObChecked will only install default files if a valid configuration is not found, e.g. on first install.
+
+`ColumnConfig.json` defines a valid configuration. If this file is present, ObChecked will **not** install default config or audit files.
+`Group_SUBJECT.aud` defines each audit subject for each group. These will only be created if ColumnConfig.json is not present. Default files will **not** overwrite existing files.
+
+If you want a clean install of a new version with new default system files, these will need to be manually removed before running ObChecked.
+
+*This was to ensure updates to a new version does not overwrite previously modified files.*
 
 ---
 
@@ -63,6 +74,8 @@ Typical uses include:
 
 The firm folder must be configured before it can be used. Once configured, definitions can be promoted to this location so they are available to all connected users.
 
+> As with Tekla convention, if a configuration is found inside the Firm folder, this is automatically taken as the active directory.
+
 ---
 
 ### Model Folder
@@ -77,7 +90,7 @@ Examples include:
 - special naming conventions
 - temporary validation checks
 
-When configuration exists in the model folder, it overrides both firm and root configuration.
+> As with Tekla convention, if a configuration is found inside the Model folder, this is automatically taken as the active directory.
 
 ---
 
@@ -114,3 +127,7 @@ When configuring ObChecked for a new environment, the following order is recomme
 3. Define or import **Audit Rules**  
 
 Following this order ensures that shared configuration is established before rules and columns are created.
+
+## Limitations
+
+Unfortunately there is no way to specify some here, some there. We hope to one day include a way to have main settings available in Firm, and only specific audits available from model, but at the moment this is not yet achievable.
