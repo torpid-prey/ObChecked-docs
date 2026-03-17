@@ -13,9 +13,9 @@
 
 ObChecked reads configuration from three locations, in order of increasing specificity:
 
-- **Application Root** – inside `Environments/Common/`
-- **XS_FIRM** – if defined in Tekla advanced options
-- **Model Folder** – the current model directory
+- [Application Root](#application-root) – inside `Environments/Common/`
+- [XS_FIRM](#firm-folder) – if defined in Tekla advanced options
+- [Model Folder](#model-folder) – the current model directory
 
 These locations follow standard Tekla conventions, where more specific locations override broader ones.
 
@@ -109,7 +109,7 @@ Because of this, column definitions are typically the **first step when setting 
 
 When configuring ObChecked for a new environment, the following order is recommended:
 
-1. Define the **Firm Folder** location  
+1. Define the **Firm Folder** location (if applicable) 
 2. Configure **Column Definitions**  
 3. Define or import **Audit Rules**  
 
