@@ -1,7 +1,4 @@
----
----
-
-@import "jekyll-theme-cayman";
+--- --- @import "jekyll-theme-cayman";
 
 .sticky-nav {
   position: sticky;
@@ -19,6 +16,6 @@
   overflow: visible;
 }
 
-.main-content > * {
+.main-content>* {
   overflow: visible;
 }
