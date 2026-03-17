@@ -2,6 +2,8 @@
 ---
 
 {% include nav.html %}
+{% include nav_concepts.html %}
+{% include nav_concepts_targets.html %}
 
 # Target Type — NumericBands
 
