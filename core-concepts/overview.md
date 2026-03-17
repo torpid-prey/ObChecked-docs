@@ -2,9 +2,10 @@
 ---
 
 {% include nav.html %}
-{% include nav_concepts.html %}
 
 # Core Concepts
+
+{% include nav_concepts.html %}
 
 ObChecked audits are built using a structured rule hierarchy.
 

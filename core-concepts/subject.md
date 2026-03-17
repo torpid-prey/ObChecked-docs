@@ -2,9 +2,10 @@
 ---
 
 {% include nav.html %}
-{% include nav_concepts.html %}
 
 # Subject Node
+
+{% include nav_concepts.html %}
 
 ## Purpose
 

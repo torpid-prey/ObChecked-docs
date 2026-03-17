@@ -2,9 +2,10 @@
 ---
 
 {% include nav.html %}
-{% include nav_concepts.html %}
 
 # Match Node
+
+{% include nav_concepts.html %}
 
 ## Purpose
 
