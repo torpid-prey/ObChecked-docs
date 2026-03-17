@@ -3,8 +3,6 @@
 
 {% include nav.html %}
 
-<!-- [Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main](../user-interface/main-window.md) | [Audits](../user-interface/audit-definition-editor.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md) -->
-
 # File Locations
 
 ObChecked allows configuration files to be stored in several different locations depending on how the configuration should be shared.

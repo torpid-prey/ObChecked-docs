@@ -3,10 +3,6 @@
 
 {% include nav.html %}
 
-<!-- [Contents](../../README.md) | [Concepts](../../core-concepts/overview.md) | [Configuration](../../configuration/overview.md) | [Main](../../user-interface/main-window.md) | [Audits](../../user-interface/audit-definition-editor.md) | [Examples](../../examples/overview.md) | [Troubleshooting](../../troubleshooting/overview.md) -->
-
----
-
 # Name Rule Examples
 
 The **NAME** column is one of the most commonly used subject columns when auditing model data.

@@ -3,10 +3,6 @@
 
 {% include nav.html %}
 
-<!--[Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main](../user-interface/main-window.md) | [Audits](../user-interface/audit-definition-editor.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md)-->
-
----
-
 # Troubleshooting
 
 This page lists common issues that may occur when using **ObChecked** and provides guidance for resolving them.

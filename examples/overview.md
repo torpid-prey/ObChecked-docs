@@ -3,10 +3,6 @@
 
 {% include nav.html %}
 
-<!-- [Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main](../user-interface/main-window.md) | [Audits](../user-interface/audit-definition-editor.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md) -->
-
----
-
 # Examples
 
 The examples section demonstrates how the audit system can be used to detect modelling issues and enforce modelling conventions.

@@ -3,10 +3,6 @@
 
 {% include nav.html %}
 
-<!-- [Contents](../README.md) | [Concepts](../core-concepts/overview.md) | [Configuration](../configuration/overview.md) | [Main](../user-interface/main-window.md) | [Audits](../user-interface/audit-definition-editor.md) | [Examples](../examples/overview.md) | [Troubleshooting](../troubleshooting/overview.md) -->
-
----
-
 # Main Window
 
 The ObChecked main window is where objects are fetched from the Tekla model, displayed in the grid, and evaluated against audit rules.
