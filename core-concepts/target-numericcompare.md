@@ -5,9 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Target Type — NumericCompare
+# Core Concepts
 
 {% include nav_concepts.html %}
+
+---
+
+# Target Type — NumericCompare
 
 {% include nav_concepts_targets.html %}
 

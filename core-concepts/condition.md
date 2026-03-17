@@ -5,9 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Condition Node
+# Core Concepts
 
 {% include nav_concepts.html %}
+
+---
+
+# Condition Node
 
 ## Purpose
 

@@ -5,9 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Target Node
+# Core Concepts
 
 {% include nav_concepts.html %}
+
+---
+
+# Target Node
 
 {% include nav_concepts_targets.html %}
 

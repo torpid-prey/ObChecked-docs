@@ -5,9 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Target Type — StringCompare
+# Core Concepts
 
 {% include nav_concepts.html %}
+
+---
+
+# Target Type — StringCompare
 
 {% include nav_concepts_targets.html %}
 

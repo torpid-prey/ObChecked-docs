@@ -5,9 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Target Type — Direct
+# Core Concepts
 
 {% include nav_concepts.html %}
+
+---
+
+# Target Type — Direct
 
 {% include nav_concepts_targets.html %}
 

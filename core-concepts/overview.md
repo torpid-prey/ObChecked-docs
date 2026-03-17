@@ -9,6 +9,8 @@
 
 {% include nav_concepts.html %}
 
+---
+
 ObChecked audits are built using a structured rule hierarchy.
 
 This hierarchy allows complex validation rules to be constructed in a clear and modular way. Each level progressively narrows the scope of the rule until a specific value can be evaluated.

@@ -5,9 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Target Type — NumericBands
+# Core Concepts
 
 {% include nav_concepts.html %}
+
+---
+
+# Target Type — NumericBands
 
 {% include nav_concepts_targets.html %}
 
