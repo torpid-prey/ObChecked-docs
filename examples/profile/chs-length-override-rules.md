@@ -1,7 +1,9 @@
 ---
 ---
 
+<div class="sticky-nav">
 {% include nav.html %}
+</div>
 
 # CHS Length Override Rules with `onAnyMatch`
 

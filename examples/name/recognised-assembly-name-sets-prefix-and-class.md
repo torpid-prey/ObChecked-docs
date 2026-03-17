@@ -1,7 +1,9 @@
 ---
 ---
 
+<div class="sticky-nav">
 {% include nav.html %}
+</div>
 
 # Rule — Recognised Assembly Names Set Prefix and Class
 

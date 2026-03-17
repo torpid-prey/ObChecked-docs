@@ -1,7 +1,9 @@
 ---
 ---
 
+<div class="sticky-nav">
 {% include nav.html %}
+</div>
 
 # Rule — Welded Part Name Should Not Be Main Part
 
