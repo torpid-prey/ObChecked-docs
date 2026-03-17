@@ -11,9 +11,11 @@
 
 ---
 
-# Target Type — Direct
+# Target Node — Type: Direct
 
 {% include nav_concepts_targets.html %}
+
+---
 
 ## Purpose
 

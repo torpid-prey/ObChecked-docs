@@ -11,9 +11,11 @@
 
 ---
 
-# Target Type — StringCompare
+# Target Node — Type: StringCompare
 
 {% include nav_concepts_targets.html %}
+
+---
 
 ## Purpose
 

@@ -15,6 +15,8 @@
 
 {% include nav_concepts_targets.html %}
 
+---
+
 ## Purpose
 
 A **Target** node defines the property that will be audited when a Match succeeds.

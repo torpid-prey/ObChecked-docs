@@ -11,9 +11,11 @@
 
 ---
 
-# Target Type — NumericCompare
+# Target Note — Type: NumericCompare
 
 {% include nav_concepts_targets.html %}
+
+---
 
 ## Purpose
 
