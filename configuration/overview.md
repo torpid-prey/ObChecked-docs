@@ -7,6 +7,10 @@
 
 # Configuration
 
+{% include nav_configuration.html %}
+
+---
+
 ObChecked can read configuration from three different locations:
 
 - [Firm Folder Setup](firm-folder.md)

@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Configuration
+
+{% include nav_configuration.html %}
+
+---
+
 # File Locations
 
 ObChecked allows configuration files to be stored in several different locations depending on how the configuration should be shared.

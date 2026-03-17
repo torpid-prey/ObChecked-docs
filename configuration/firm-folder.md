@@ -5,7 +5,13 @@
 {% include nav.html %}
 </div>
 
-# Firm Folder Setup
+# Configuration
+
+{% include nav_configuration.html %}
+
+---
+
+# Firm Folder
 
 ObChecked supports using a **shared firm folder** so configuration files can be maintained centrally and accessed by multiple users.
 
