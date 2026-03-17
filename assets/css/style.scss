@@ -1,10 +1,10 @@
 .sticky-nav {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   background: white;
-  display: block;
-  padding: 0.5rem 0;
 }
 
 .sticky-nav {
@@ -21,4 +21,8 @@
 .nav-table td {
   text-align: center;
   background: white;
+}
+
+.main-content {
+  padding-top: 60px;
 }
