@@ -5,18 +5,6 @@
 
 # Configuration
 
-Before auditing rules can be applied, ObChecked must know **where configuration files are stored** and **how column data should be interpreted**. Configuration determines how the application reads object properties, where shared definitions are stored, and how rules can be applied consistently across users and projects.
-
-ObChecked separates configuration into several layers so that rules and settings can be shared across teams while still allowing project-specific overrides when required.
-
-![Main Menu](../screenshots/main-context-menu.png)
-
-*Access all properties via the main menu in the bottom right corner*
-
----
-
-## Configuration Layers
-
 ObChecked can read configuration from three different locations:
 
 - [Firm Folder Setup](firm-folder.md)
@@ -24,6 +12,14 @@ ObChecked can read configuration from three different locations:
 - [File Locations and Overrides](file-locations.md)
 
 These locations form a hierarchy. More specific locations override broader ones.
+
+Before auditing rules can be applied, ObChecked must know **where configuration files are stored** and **how column data should be interpreted**. Configuration determines how the application reads object properties, where shared definitions are stored, and how rules can be applied consistently across users and projects.
+
+ObChecked separates configuration into several layers so that rules and settings can be shared across teams while still allowing project-specific overrides when required.
+
+![Main Menu](../screenshots/main-context-menu.png)
+
+*Access all properties via the main menu in the bottom right corner*
 
 ---
 
