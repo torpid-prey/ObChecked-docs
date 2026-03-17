@@ -11,7 +11,7 @@
 
 ---
 
-# Target Node — Type: NumericBands
+# Target Node — NumericBands
 
 {% include nav_concepts_targets.html %}
 

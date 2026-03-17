@@ -11,7 +11,7 @@
 
 ---
 
-# Target Node — Type: StringCases
+# Target Node — StringCases
 
 {% include nav_concepts_targets.html %}
 

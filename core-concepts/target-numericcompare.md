@@ -11,7 +11,7 @@
 
 ---
 
-# Target Note — Type: NumericCompare
+# Target Node — NumericCompare
 
 {% include nav_concepts_targets.html %}
 

@@ -11,7 +11,7 @@
 
 ---
 
-# Target Node — Type: Direct
+# Target Node — Direct
 
 {% include nav_concepts_targets.html %}
 
