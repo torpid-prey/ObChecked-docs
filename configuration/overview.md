@@ -74,7 +74,7 @@ Typical uses include:
 
 The firm folder must be configured before it can be used. Once configured, definitions can be promoted to this location so they are available to all connected users.
 
-> As with Tekla convention, if a configuration is found inside the Firm folder, this is automatically taken as the active directory.
+> Following Tekla convention, if a configuration is found inside the Firm folder and **not** in the Model folder, this is automatically taken as the active directory.
 
 ---
 
@@ -90,7 +90,7 @@ Examples include:
 - special naming conventions
 - temporary validation checks
 
-> As with Tekla convention, if a configuration is found inside the Model folder, this is automatically taken as the active directory.
+> Following Tekla convention, if a configuration is found inside the Model folder, this is automatically taken as the active directory.
 
 ---
 
