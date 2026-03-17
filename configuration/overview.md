@@ -11,17 +11,24 @@
 
 ---
 
-ObChecked can read configuration from three different locations:
+ObChecked reads configuration from three locations, in order of increasing specificity:
 
-- [Firm Folder Setup](firm-folder.md)
-- [Column Definitions](column-definitions.md)
-- [File Locations and Overrides](file-locations.md)
+- **Application Root** – inside `Environments/Common/`
+- **XS_FIRM** – if defined in Tekla advanced options
+- **Model Folder** – the current model directory
 
-These locations form a hierarchy. More specific locations override broader ones.
+These locations follow standard Tekla conventions, where more specific locations override broader ones.
 
-Before auditing rules can be applied, ObChecked must know **where configuration files are stored** and **how column data should be interpreted**. Configuration determines how the application reads object properties, where shared definitions are stored, and how rules can be applied consistently across users and projects.
+---
 
-ObChecked separates configuration into several layers so that rules and settings can be shared across teams while still allowing project-specific overrides when required.
+Before audit rules can be applied, ObChecked needs to know:
+
+- where configuration files are stored  
+- how column data should be interpreted  
+
+Configuration controls how object properties are read, where shared definitions are loaded from, and how rules behave across users and projects.
+
+To support this, ObChecked separates configuration into layers so that shared office standards can coexist with project-specific overrides.
 
 ![Main Menu](../screenshots/main-context-menu.png)
 
