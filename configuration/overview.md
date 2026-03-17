@@ -128,6 +128,8 @@ When configuring ObChecked for a new environment, the following order is recomme
 
 Following this order ensures that shared configuration is established before rules and columns are created.
 
+---
+
 ## Limitations
 
 Unfortunately there is no way to specify some here, some there. We hope to one day include a way to have main settings available in Firm, and only specific audits available from model, but at the moment this is not yet achievable.
