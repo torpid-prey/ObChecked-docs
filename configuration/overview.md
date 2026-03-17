@@ -23,9 +23,9 @@ ObChecked separates configuration into several layers so that rules and settings
 
 ObChecked can read configuration from three different locations:
 
-1. **Application Root**  
-2. **Firm Folder**  
-3. **Model Folder**
+- [Firm Folder Setup](firm-folder.md)
+- [Column Definitions](column-definitions.md)
+- [File Locations and Overrides](file-locations.md)
 
 These locations form a hierarchy. More specific locations override broader ones.
 
@@ -109,11 +109,3 @@ When configuring ObChecked for a new environment, the following order is recomme
 3. Define or import **Audit Rules**  
 
 Following this order ensures that shared configuration is established before rules and columns are created.
-
----
-
-## Next Steps
-
-- [Firm Folder Setup](firm-folder.md)
-- [Column Definitions](column-definitions.md)
-- [File Locations and Overrides](file-locations.md)
