@@ -11,6 +11,12 @@
 
 ---
 
+# Name Rule Examples
+
+{% include nav_examples_names.html %}
+
+---
+
 # Rule — Vertical Part Name Requires Correct Rotation
 
 ## Problem

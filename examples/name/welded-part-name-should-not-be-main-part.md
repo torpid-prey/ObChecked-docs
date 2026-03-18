@@ -11,6 +11,12 @@
 
 ---
 
+# Name Rule Examples
+
+{% include nav_examples_names.html %}
+
+---
+
 # Rule — Welded Part Name Should Not Be Main Part
 
 ## Problem

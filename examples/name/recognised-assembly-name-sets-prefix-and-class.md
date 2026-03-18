@@ -11,6 +11,12 @@
 
 ---
 
+# Name Rule Examples
+
+{% include nav_examples_names.html %}
+
+---
+
 # Rule — Recognised Assembly Names Set Prefix and Class
 
 ## Problem
