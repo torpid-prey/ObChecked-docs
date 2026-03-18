@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Rule Design Patterns
 
 The examples in this documentation demonstrate how audit rules can be structured to detect modelling issues.  

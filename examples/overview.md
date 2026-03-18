@@ -7,6 +7,10 @@
 
 # Examples
 
+{% include nav_examples.html %}
+
+---
+
 The examples section demonstrates how the audit system can be used to detect modelling issues and enforce modelling conventions.
 
 Each example explains the **problem**, the **strategy used to detect it**, and the **rule structure** required to implement it.

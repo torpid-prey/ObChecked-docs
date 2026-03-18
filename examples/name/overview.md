@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Name Rule Examples
 
 The **NAME** column is one of the most commonly used subject columns when auditing model data.

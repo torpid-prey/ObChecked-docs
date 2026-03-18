@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Profile Rule Examples
 
 These example pages document real audit design patterns used by ObChecked profile-based rules.
