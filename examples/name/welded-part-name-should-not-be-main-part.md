@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Rule — Welded Part Name Should Not Be Main Part
 
 ## Problem

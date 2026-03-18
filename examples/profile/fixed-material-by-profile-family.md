@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Fixed Material by Profile Family
 
 ## Problem

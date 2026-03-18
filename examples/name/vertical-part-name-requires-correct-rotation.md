@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Rule — Vertical Part Name Requires Correct Rotation
 
 ## Problem

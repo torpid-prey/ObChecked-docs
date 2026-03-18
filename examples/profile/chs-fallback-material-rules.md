@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # CHS Fallback Material Rules with `onFirstMatch`
 
 ## Problem

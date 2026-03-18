@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # CHS Length Override Rules with `onAnyMatch`
 
 ## Problem

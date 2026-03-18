@@ -5,6 +5,12 @@
 {% include nav.html %}
 </div>
 
+# Examples
+
+{% include nav_examples.html %}
+
+---
+
 # Rule — Recognised Assembly Names Set Prefix and Class
 
 ## Problem
