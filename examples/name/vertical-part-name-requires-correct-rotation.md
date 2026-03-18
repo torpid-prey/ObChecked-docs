@@ -15,11 +15,12 @@
 
 {% include nav_examples_names.html %}
 
+# Vertical Part Name Requires Correct Rotation
+
 ---
 
-# Rule — Vertical Part Name Requires Correct Rotation
-
 ## Problem
+
 Certain part names represent vertical members such as columns or droppers.
 
 These parts must maintain the correct orientation relative to project north.

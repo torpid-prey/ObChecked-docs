@@ -11,7 +11,13 @@
 
 ---
 
-# Rule — Warning Field Should Normally Be Empty
+# Common Rule Examples
+
+{% include nav_examples_common.html %}
+
+# Warning Field Should Normally Be Empty
+
+---
 
 ## Problem
 

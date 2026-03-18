@@ -11,7 +11,13 @@
 
 ---
 
-# Rule — UserPhase Must Match PhaseNumber
+# Common Rule Examples
+
+{% include nav_examples_common.html %}
+
+# UserPhase Must Match PhaseNumber
+
+---
 
 ## Problem
 

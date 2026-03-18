@@ -11,7 +11,13 @@
 
 ---
 
-# Rule — Material Determines Valid Finish
+# Common Rule Examples
+
+{% include nav_examples_common.html %}
+
+# Material Determines Valid Finish
+
+---
 
 ## Problem
 

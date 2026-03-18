@@ -15,11 +15,12 @@
 
 {% include nav_examples_names.html %}
 
+# Recognised Assembly Names Set Prefix and Class
+
 ---
 
-# Rule — Recognised Assembly Names Set Prefix and Class
-
 ## Problem
+
 Certain object names represent specific assembly types.
 
 These assemblies should use consistent prefixes and class values.

@@ -11,7 +11,13 @@
 
 ---
 
-# Rule — Assembly Prefix Must Start With Phase Number
+# Common Rule Examples
+
+{% include nav_examples_common.html %}
+
+# Assembly Prefix Must Start With Phase Number
+
+---
 
 ## Problem
 

@@ -13,6 +13,10 @@
 
 # Common Rule Examples
 
+{% include nav_examples_common.html %}
+
+---
+
 The **Common** examples demonstrate audit rules that apply broadly across the model rather than being tied to a single profile family or object name.
 
 These rules are usually built from subject columns that either:

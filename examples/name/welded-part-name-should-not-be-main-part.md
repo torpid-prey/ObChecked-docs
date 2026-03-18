@@ -15,11 +15,12 @@
 
 {% include nav_examples_names.html %}
 
+# Welded Part Name Should Not Be Main Part
+
 ---
 
-# Rule — Welded Part Name Should Not Be Main Part
-
 ## Problem
+
 Some object names represent secondary components that should not be used as the main part of an assembly.
 
 Examples include plates, channels, and other welded attachments.

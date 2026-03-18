@@ -11,7 +11,13 @@
 
 ---
 
-# Rule — PhaseOthers Should Be Empty
+# Common Rule Examples
+
+{% include nav_examples_common.html %}
+
+# PhaseOthers Should Be Empty
+
+---
 
 ## Problem
 

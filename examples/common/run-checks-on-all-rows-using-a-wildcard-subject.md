@@ -11,7 +11,13 @@
 
 ---
 
-# Rule — Run Checks on All Rows
+# Common Rule Examples
+
+{% include nav_examples_common.html %}
+
+# Run Checks on All Rows
+
+---
 
 ## Problem
 

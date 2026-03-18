@@ -15,11 +15,12 @@
 
 {% include nav_examples_names.html %}
 
+# Name Determines Valid Profile
+
 ---
 
-# Rule — Name Determines Valid Profile
-
 ## Problem
+
 Certain object names imply that only specific profile types should be used.
 
 For example, a part named **CHEQUER PLATE** should use a floor plate profile.
