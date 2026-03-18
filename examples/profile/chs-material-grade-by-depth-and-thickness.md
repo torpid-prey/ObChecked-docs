@@ -11,7 +11,9 @@
 
 ---
 
-# Profile Rule Examples — CHS Material Grade by Depth and Thickness
+# Profile Rule Examples 
+
+### CHS Material Grade by Depth and Thickness
 
 {% include nav_examples_profiles.html %}
 

@@ -13,6 +13,8 @@
 
 # Profile Rule Examples
 
+### Options
+
 {% include nav_examples_profiles.html %}
 
 ---

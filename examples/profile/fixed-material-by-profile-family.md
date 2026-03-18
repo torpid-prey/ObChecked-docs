@@ -11,7 +11,9 @@
 
 ---
 
-# Profile Rule Examples — Fixed Material by Profile Family
+# Profile Rule Examples
+
+### Fixed Material by Profile Family
 
 {% include nav_examples_profiles.html %}
 
