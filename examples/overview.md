@@ -44,6 +44,8 @@ But to understand the rule pattern behind each example will help you create rule
 See:
 - [Rule Design Patterns](rule-design-patterns.md)
 
+[Top](#examples)
+
 ---
 
 # Profile Rules
@@ -66,6 +68,8 @@ Examples are based on the system audit file:
 See:
 
 - [Profile Rule Examples](profile/overview.md)
+
+[Top](#examples)
 
 ---
 
@@ -90,6 +94,8 @@ See:
 
 - [Name Rule Examples](name/overview.md)
 
+[Top](#examples)
+
 ---
 
 # Common Rules
@@ -107,6 +113,8 @@ See:
 
 - [Common Rule Examples](common/overview.md)
 
+[Top](#examples)
+
 ---
 
 # System Audit Files
@@ -120,6 +128,8 @@ The following audit files plus many others are installed with ObChecked and form
 | [`Parts_PHASE_OTHERS.aud`](system-files/Parts_PHASE_OTHERS.aud) | Global checks applied to all objects |
 
 They are included so users can review the full audit definitions used by the example rules.
+
+[Top](#examples)
 
 ---
 
