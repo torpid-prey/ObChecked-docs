@@ -13,9 +13,9 @@
 
 # Profile Rule Examples 
 
-### CHS Length Override Rules with `onAnyMatch`
-
 {% include nav_examples_profiles.html %}
+
+## CHS Length Override Rules with *onAnyMatch*
 
 ---
 

@@ -13,9 +13,9 @@
 
 # Profile Rule Examples
 
-### Grating Material Substring Match
-
 {% include nav_examples_profiles.html %}
+
+## Grating Material Substring Match
 
 ---
 

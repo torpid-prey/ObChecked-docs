@@ -13,9 +13,9 @@
 
 # Profile Rule Examples
 
-### CHS Fallback Material Rules with `onFirstMatch`
-
 {% include nav_examples_profiles.html %}
+
+## CHS Fallback Material Rules with *onFirstMatch*
 
 ---
 

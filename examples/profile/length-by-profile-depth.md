@@ -13,9 +13,9 @@
 
 # Profile Rule Examples
 
-### Length by Profile Depth
-
 {% include nav_examples_profiles.html %}
+
+## Length by Profile Depth
 
 ---
 
