@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# Run checks on all Rows
+# Run checks on all rows using a wildcard Subject
 
 ---
 

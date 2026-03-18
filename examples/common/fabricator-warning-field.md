@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# Warning field should normally be empty
+# On Hold warning field should normally be empty
 
 ---
 
