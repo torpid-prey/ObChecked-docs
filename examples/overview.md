@@ -15,12 +15,12 @@ The examples section demonstrates how the audit system can be used to detect mod
 
 Each example explains the **problem**, the **strategy used to detect it**, and the **rule structure** required to implement it.
 
-The examples are organised by the **subject column** used in the audit rules.
+The examples are organised by the **subject column** used in the audit rules and are briefly outlined.
 
-- [Rule Design Patterns](rule-design-patterns.md)
-- [Profile Rule Examples](profile/overview.md)
-- [Name Rule Examples](name/overview.md)
-- [Common Rule Examples](common/overview.md)
+- [Rule Design Patterns](#rule-design-patterns)
+- [Profile Rule Examples](#profile-rules)
+- [Name Rule Examples](#name-rules)
+- [Common Rule Examples](#common-rules)
 
 ---
 
@@ -46,9 +46,7 @@ See:
 
 ---
 
-# Example Groups
-
-## Profile Rules
+# Profile Rules
 
 Profile rules analyse the **PROFILE** column.
 
@@ -71,7 +69,7 @@ See:
 
 ---
 
-## Name Rules
+# Name Rules
 
 Name rules analyse the **NAME** column.
 
@@ -94,7 +92,7 @@ See:
 
 ---
 
-## Common Rules
+# Common Rules
 
 Common rules apply to **all objects**, regardless of their profile or name.
 

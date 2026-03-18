@@ -13,6 +13,15 @@
 
 # Rule Design Patterns
 
+1. [Recognition Pattern](#1-recognition-pattern)
+2. [Validation Pattern](#2-validation-pattern)
+3. [Extraction Pattern (Regex)](#3-extraction-pattern-regex)
+4. [Conditional Validation Pattern](#4-conditional-validation-pattern)
+5. [Fallback Match Patterns](#5-fallback-match-patterns)
+6. [Global Match Pattern](#6-global-match-pattern)
+7. [Direct Property Pattern](#7-direct-property-pattern)
+8. [Severity Override Pattern](#8-severity-override-pattern)
+
 The examples in this documentation demonstrate how audit rules can be structured to detect modelling issues.  
 While each example focuses on a specific scenario, most rules follow a small number of **design patterns**.
 
@@ -49,6 +58,8 @@ Each match under the subject represents one variation of the subject column.
 
 Once an object has been recognised, targets can then check whether other properties are internally consistent.
 
+[Top](#rule-design-patterns)
+
 ---
 
 # 2. Validation Pattern
@@ -80,6 +91,8 @@ Once the Subject is recognised, the rule simply verifies that the Target cell co
 > Think: For this `PROFILE`, what `MATERIAL`(s) are acceptable?
 
 It is always the Target cell that receives the audit result flag and message.
+
+[Top](#rule-design-patterns)
 
 ---
 
@@ -119,6 +132,8 @@ Extracted values from the Subject can then be used to allow multiple conditional
 
 > Think: Does this profile value contain information that can impact audit criteria?
 
+[Top](#rule-design-patterns)
+
 ---
 
 # 4. Conditional Validation Pattern
@@ -153,6 +168,8 @@ The condition allows a different `LENGTH_NET` value to be applied, depending on 
 > Think: Does this rule only apply to this profile under certain circumstances?
 
 Multiple Targets can be assigned to the same cell, only if they have different conditions.
+
+[Top](#rule-design-patterns)
 
 ---
 
@@ -194,6 +211,8 @@ This check may be used to evaluate part `FINISH`, when it is the `MATERIAL` that
 
 The wildcard match `*` acts as a fallback and handles all remaining objects that were not recognised earlier.
 
+[Top](#rule-design-patterns)
+
 ---
 
 # 6. Global Match Pattern
@@ -222,6 +241,8 @@ The wildcard match causes the rule branch to run for every object.
 
 Targets inside the branch then perform the actual checks.
 
+[Top](#rule-design-patterns)
+
 ---
 
 # 7. Direct Property Pattern
@@ -249,6 +270,8 @@ Direct checks like `CellValueEmpty` or `CellValueNotEmpty` are often used in glo
 > Think: Are there any cells that simply must contain or not contain some value?
 
 Other specific Direct checks include [RotationByProjectNorth](../core-concepts/target-direct.md#rotationbyprojectnorth)
+
+[Top](#rule-design-patterns)
 
 ---
 
@@ -290,6 +313,8 @@ The same part is then also matched by the second, more specific target (derived 
 *e.g. only specific depths, thicknesses, and materials are available in the longer sizes*
 
 This pattern is particularly useful when working with multiple specification tables with overlap.
+
+[Top](#rule-design-patterns)
 
 ---
 
