@@ -15,7 +15,7 @@
 
 {% include nav_examples_names.html %}
 
-# Welded Part Name Should Not Be Main Part
+# Welded part Name should not be Main Part
 
 ---
 

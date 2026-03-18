@@ -15,7 +15,7 @@
 
 {% include nav_examples_profiles.html %}
 
-# CHS Material Grade by Depth and Thickness
+# CHS Material by depth and thickness
 
 ---
 

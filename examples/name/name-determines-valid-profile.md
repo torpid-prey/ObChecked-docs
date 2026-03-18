@@ -15,7 +15,7 @@
 
 {% include nav_examples_names.html %}
 
-# Name Determines Valid Profile
+# Name determines valid Profile
 
 ---
 

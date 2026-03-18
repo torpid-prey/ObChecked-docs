@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# Warning Field Should Normally Be Empty
+# Warning field should normally be empty
 
 ---
 

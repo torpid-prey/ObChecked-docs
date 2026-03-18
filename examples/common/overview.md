@@ -52,17 +52,6 @@ These patterns can be used to design additional rules that do not depend on a sp
 
 ---
 
-## Example Rules
-
-- [Run checks on all rows using a wildcard subject](run-checks-on-all-rows-using-a-wildcard-subject.md)
-- [PhaseOthers should be empty](phase-others-should-be-empty.md)
-- [UserPhase must match PhaseNumber](user-phase-must-match-phase-number.md)
-- [On Hold warning field should normally be empty](fabricator-warning-field.md)
-- [Material determines valid Finish](material-determines-valid-finish.md)
-- [AssemblyPrefix must start with PhaseNumber](assy-prefix-must-start-with-phase-number.md)
-
----
-
 ## System File References
 
 The rules used in these examples are based on the system audit files:

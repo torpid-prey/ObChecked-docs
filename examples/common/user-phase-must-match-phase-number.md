@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# UserPhase Must Match PhaseNumber
+# UserPhase must match PhaseNumber
 
 ---
 

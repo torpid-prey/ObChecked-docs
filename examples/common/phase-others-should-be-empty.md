@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# PhaseOthers Should Be Empty
+# PhaseOthers should be empty
 
 ---
 

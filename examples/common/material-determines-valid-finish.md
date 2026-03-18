@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# Material Determines Valid Finish
+# Material determines valid Finish
 
 ---
 

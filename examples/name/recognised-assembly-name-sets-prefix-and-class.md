@@ -15,7 +15,7 @@
 
 {% include nav_examples_names.html %}
 
-# Recognised Assembly Names Set Prefix and Class
+# Recognised Assembly Names set Prefix and Class
 
 ---
 

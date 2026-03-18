@@ -15,7 +15,7 @@
 
 {% include nav_examples_names.html %}
 
-# Vertical Part Name Requires Correct Rotation
+# Vertical part Name requires correct Rotation
 
 ---
 

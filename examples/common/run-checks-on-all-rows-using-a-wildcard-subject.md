@@ -15,7 +15,7 @@
 
 {% include nav_examples_common.html %}
 
-# Run Checks on All Rows
+# Run checks on all Rows
 
 ---
 

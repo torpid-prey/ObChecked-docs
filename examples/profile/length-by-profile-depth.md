@@ -15,7 +15,7 @@
 
 {% include nav_examples_profiles.html %}
 
-# Length by Profile Depth
+# Length by Profile depth
 
 ---
 
