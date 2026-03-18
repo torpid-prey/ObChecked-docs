@@ -76,7 +76,7 @@ Conditions:
 | 10B | 10 | Okay |
 | 10B | 1 | Error |
 | 2045B | 2045 | Okay |
-| 2045B | 245 | Error |
+| 2045B | 204 | Error |
 
 ## Explanation
 
