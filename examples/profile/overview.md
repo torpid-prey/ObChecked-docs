@@ -13,6 +13,10 @@
 
 # Profile Rule Examples
 
+{% include nav_examples_profiles.html %}
+
+---
+
 These example pages document real audit design patterns used by ObChecked profile-based rules.
 
 Each page follows the same structure:
@@ -25,6 +29,7 @@ Each page follows the same structure:
 
 These examples are intended to complement the Core Concepts pages. They focus on **how to solve a problem**, rather than how each node type works internally.
 
+<!--
 ---
 
 ## Example Rules
@@ -36,6 +41,7 @@ These examples are intended to complement the Core Concepts pages. They focus on
 - [CHS material grade by depth and thickness](chs-material-grade-by-depth-and-thickness.md)
 - [CHS fallback material rules](chs-fallback-material-rules.md)
 - [CHS length override rules](chs-length-override-rules.md)
+-->
 
 ---
 

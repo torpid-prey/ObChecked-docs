@@ -11,7 +11,11 @@
 
 ---
 
-# Prefix by Radius
+# Profile Rule Examples — Prefix by Radius
+
+{% include nav_examples_profiles.html %}
+
+---
 
 ## Problem
 

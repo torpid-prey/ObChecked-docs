@@ -11,7 +11,11 @@
 
 ---
 
-# Length by Profile Depth
+# Profile Rule Examples — Length by Profile Depth
+
+{% include nav_examples_profiles.html %}
+
+---
 
 ## Problem
 
