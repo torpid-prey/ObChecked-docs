@@ -15,7 +15,7 @@
 
 {% include nav_examples_profiles.html %}
 
-## Grating Material Substring Match
+# Grating Material Substring Match
 
 ---
 

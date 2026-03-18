@@ -15,7 +15,7 @@
 
 {% include nav_examples_profiles.html %}
 
-## Fixed Material by Profile Family
+# Fixed Material by Profile Family
 
 ---
 
