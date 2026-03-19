@@ -17,8 +17,6 @@
 
 ---
 
-# Profile Examples
-
 The **PROFILE** subject can extract technical properties from the section name. These Profile examples demonstrate how audit rules can be created which all relate to profile strings.
 
 Profile-based checks are commonly used to ensure consistency across object types, enforce standards, and detect incorrect or unsupported materials, part marks, etc.
