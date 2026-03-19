@@ -22,6 +22,8 @@
 7. [Direct Property Pattern](#7-direct-property-pattern)
 8. [Severity Override Pattern](#8-severity-override-pattern)
 
+---
+
 The examples in this documentation demonstrate how audit rules can be structured to detect modelling issues.  
 While each example focuses on a specific scenario, most rules follow a small number of **design patterns**.
 
