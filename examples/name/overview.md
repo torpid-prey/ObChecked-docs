@@ -19,8 +19,6 @@
 
 The **NAME** column is one of the most commonly used subject columns when auditing model data.
 
-Unlike the **PROFILE** subject, which usually extracts technical properties from the section name, the **NAME** subject is primarily used to classify parts based on their intended modelling role.
-
 These rules typically define:
 
 - which object names are recognised

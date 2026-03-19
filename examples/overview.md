@@ -24,18 +24,31 @@ The examples are organised by the **subject column** used in the audit rules and
 
 ---
 
+## Example Structure
+
+Each example follows a consistent structure to make rules easy to understand and compare:
+
+- **Scenario** – what is being checked  
+- **Rule Definition** – how the rule is configured  
+- **Expected Behaviour** – what should pass or fail  
+- **Notes** – any important details or variations  
+
+This structure allows examples to be reused and adapted across different rule types.
+
+---
+
 # Rule Design Patterns
 
 These offer ways to think about designing your own custom rules rather than relying on examples alone.
 
-1. Recognition Pattern
-2. Validation Pattern
-3. Extraction Pattern (Regex)
-4. Conditional Validation Pattern
-5. Fallback Match Patterns
-6. Global Match Pattern
-7. Direct Property Pattern
-8. Severity Override Pattern
+ - Recognition Pattern
+ - Validation Pattern
+ - Extraction Pattern (Regex)
+ - Conditional Validation Pattern
+ - Fallback Match Patterns
+ - Global Match Pattern
+ - Direct Property Pattern
+ - Severity Override Pattern
 
 The below examples groups are great for understanding the default set of audit files and the logic behind each node.
 

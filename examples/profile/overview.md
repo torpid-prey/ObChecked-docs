@@ -17,31 +17,13 @@
 
 ---
 
-These example pages document real audit design patterns used by ObChecked profile-based rules.
+# Profile Examples
 
-Each page follows the same structure:
+The **PROFILE** subject can extract technical properties from the section name. These Profile examples demonstrate how audit rules can be created which all relate to profile strings.
 
-- Problem
-- Strategy
-- Rule Structure
-- Example Results
-- Notes
+Profile-based checks are commonly used to ensure consistency across object types, enforce standards, and detect incorrect or unsupported materials, part marks, etc.
 
-These examples are intended to complement the Core Concepts pages. They focus on **how to solve a problem**, rather than how each node type works internally.
-
-<!--
----
-
-## Example Rules
-
-- [Fixed material by profile family](fixed-material-by-profile-family.md)
-- [Prefix by radius](prefix-by-radius.md)
-- [Length by profile depth](length-by-profile-depth.md)
-- [Grating material substring match](grating-material-substring-match.md)
-- [CHS material grade by depth and thickness](chs-material-grade-by-depth-and-thickness.md)
-- [CHS fallback material rules](chs-fallback-material-rules.md)
-- [CHS length override rules](chs-length-override-rules.md)
--->
+Use these examples to understand how to utilise profile data to not only target other cells, but also to condition targets based on profile values.
 
 ---
 
