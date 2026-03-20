@@ -88,6 +88,8 @@ It is also possible that the Tekla version is already included in the Firm folde
 
 *If separated by Tekla version, changes in one version will not apply to another version. At the moment, changes will need to be made in each version independently.*
 
+If your XS_FIRM folder is already different for each version of Tekla, it is possible to begin the subdirectory value with `..\` thereby using the **parent** directory of the firm folder. Doing this, will allow you to use **one** ObChecked configuration for **all** versions of Tekla. As long as your columns and audits remain consistent across these versions, this may be an effective way to reduce the amount of double-handling for each installed version of Tekla.
+
 Additional tokens may be added in future releases if required.
 
 ---
