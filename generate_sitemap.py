@@ -17,6 +17,7 @@ EXCLUDE_FILES = {
     "robots.txt",
     "sitemap.xml",
     "_config.yml",
+    "README.md",
 }
 
 EXCLUDE_DIRS = {
@@ -46,7 +47,7 @@ def path_to_url(rel_path: Path) -> str:
 
     url_path = rel_path.as_posix()[:-3]
 
-    return SITE_BASE + url_path
+    return SITE_BASE + url_path + "/"
 
 
 def collect_urls() -> list[str]:
