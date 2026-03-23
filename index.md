@@ -18,7 +18,7 @@ description: Documentation and rule examples for ObChecked — a Tekla model obj
 <tr>
 <td width="120">
 
-<img src="screenshots/obchecked-logo.png" width="100">
+<img src="screenshots/obchecked-logo.png" width="100" alt="ObChecked Logo">
 
 </td>
 <td>

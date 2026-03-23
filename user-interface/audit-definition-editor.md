@@ -12,7 +12,7 @@ Rules are organised in a hierarchical structure that defines how each row in the
 
 <!-- ![Audit Definition Window](../screenshots/interface-audit-definition.png) -->
 <a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png">
-  <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png" width="800">
+  <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-audit-definition.png" width="800" alt="Screenshot of the Audit Definition window, showing example node layout and context menu on a node item.">
 </a>
 
 This page describes the **user interface** used to create audit rules.  

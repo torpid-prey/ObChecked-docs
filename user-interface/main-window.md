@@ -14,7 +14,7 @@ Most operations are performed using the toolbar above the grid.
 <!-- ![Main](../screenshots/interface-main-window.png) -->
 
 <a href="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png">
-  <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png" width="1000">
+  <img src="https://torpid-prey.github.io/ObChecked-docs/screenshots/interface-main-window.png" width="1000" alt="Screenshot of main window, numbered from 1 to 13 with links below to describe the function of each button.">
 </a>
 
 <i>The numbered screenshot can be used here to visually identify each control.</i>
