@@ -2,131 +2,174 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/configuration/column-definitions/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/configuration/file-locations/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/configuration/firm-folder/</loc>
+    <lastmod>2026-03-20</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/configuration/overview/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/condition/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/match/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/overview/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/subject/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target-direct/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target-numericbands/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target-numericcompare/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target-stringcases/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target-stringcompare/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/docs-index/</loc>
+    <lastmod>2026-03-21</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/assy-prefix-must-start-with-phase-number/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/fabricator-warning-field/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/material-determines-valid-finish/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/overview/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/phase-others-should-be-empty/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/run-checks-on-all-rows-using-a-wildcard-subject/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/user-phase-must-match-phase-number/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/name-determines-valid-profile/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/overview/</loc>
+    <lastmod>2026-03-19</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/recognised-assembly-name-sets-prefix-and-class/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/vertical-part-name-requires-correct-rotation/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/welded-part-name-should-not-be-main-part/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/overview/</loc>
+    <lastmod>2026-03-19</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/chs-fallback-material-rules/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/chs-length-override-rules/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/chs-material-grade-by-depth-and-thickness/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/fixed-material-by-profile-family/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/grating-material-substring-match/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/length-by-profile-depth/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/overview/</loc>
+    <lastmod>2026-03-19</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/prefix-by-radius/</loc>
+    <lastmod>2026-03-18</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/rule-design-patterns/</loc>
+    <lastmod>2026-03-19</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/getting-started/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/index/</loc>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/overview/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/troubleshooting/overview/</loc>
+    <lastmod>2026-03-17</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/user-interface/audit-definition-editor/</loc>
+    <lastmod>2026-03-23</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/user-interface/main-window/</loc>
+    <lastmod>2026-03-23</lastmod>
   </url>
 </urlset>

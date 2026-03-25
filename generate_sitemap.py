@@ -1,5 +1,6 @@
 from pathlib import Path
 from xml.sax.saxutils import escape
+from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / "sitemap.xml"
@@ -27,7 +28,6 @@ EXCLUDE_DIRS = {
     ".vscode",
 }
 
-
 def should_exclude(path: Path) -> bool:
     if path.name in EXCLUDE_FILES:
         return True
@@ -50,7 +50,7 @@ def path_to_url(rel_path: Path) -> str:
     return SITE_BASE + url_path + "/"
 
 
-def collect_urls() -> list[str]:
+def collect_urls() -> list[tuple[str, str]]:
     md_files = [
         path.relative_to(ROOT)
         for path in ROOT.rglob("*")
@@ -62,20 +62,24 @@ def collect_urls() -> list[str]:
     urls = []
 
     for rel_path in sorted(md_files, key=lambda p: p.as_posix().lower()):
-        urls.append(path_to_url(rel_path))
+        url = path_to_url(rel_path)
+        lastmod = (ROOT / rel_path).stat().st_mtime
+        lastmod_str = datetime.fromtimestamp(lastmod, timezone.utc).strftime("%Y-%m-%d")
+        urls.append((url, lastmod_str))
 
     return urls
 
 
-def write_sitemap(urls: list[str]) -> None:
+def write_sitemap(urls: list[tuple[str, str]]) -> None:
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
 
-    for url in urls:
+    for url, lastmod in urls:
         lines.append("  <url>")
         lines.append(f"    <loc>{escape(url)}</loc>")
+        lines.append(f"    <lastmod>{lastmod}</lastmod>")
         lines.append("  </url>")
 
     lines.append("</urlset>")
