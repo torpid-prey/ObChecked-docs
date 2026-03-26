@@ -10,8 +10,6 @@ description: Documentation and rule examples for ObChecked — a Tekla model obj
 
 # ObChecked Documentation 
 
-> *Published By Chloe Garcia*
-
 <table>
 <tr>
 <td width="120">
@@ -29,6 +27,8 @@ This repository contains documentation and examples for <b>ObChecked</b>.
 </td>
 </tr>
 </table>
+
+> *Published By Chloe Garcia*
 
 ## Documentation Contents
 
