@@ -12,8 +12,6 @@ description: Documentation and rule examples for ObChecked — a Tekla model obj
 
 > *Published By Chloe Garcia*
 
-*Documentation and usage guide for the Tekla Structures Extension — ObChecked Version 2*
-
 <table>
 <tr>
 <td width="120">
@@ -23,7 +21,7 @@ description: Documentation and rule examples for ObChecked — a Tekla model obj
 </td>
 <td>
 
-Welcome to the documentation for <b>ObChecked</b>.
+Welcome to the documentation for <b>ObChecked</b> <i>Version 2</i>.
 <br>
 <br>
 This repository contains documentation and examples for <b>ObChecked</b>.
