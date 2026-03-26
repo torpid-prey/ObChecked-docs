@@ -49,7 +49,7 @@ This repository contains documentation and examples for <b>ObChecked</b>.
   - [Column Definitions](configuration/column-definitions.md)
   - [File Locations](configuration/file-locations.md)
 - User Interface
-  - [Main](user-interface/main-window.md)
+  - [Main Window](user-interface/main-window.md)
   - [Audit Definition Editor](user-interface/audit-definition-editor.md)
 - [Examples](examples/overview.md)
   - [Rule Design Patterns](examples/rule-design-patterns.md)
