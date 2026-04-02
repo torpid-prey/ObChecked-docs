@@ -19,6 +19,8 @@ ObChecked reads configuration from three locations, in order of increasing speci
 
 These locations follow standard Tekla conventions, where more specific locations override broader ones.
 
+- [Why Configuration Matters](#why-configuration-matters) - Many auditing features rely on properly defined column data.
+
 ---
 
 Before audit rules can be applied, ObChecked needs to know:
@@ -58,6 +60,8 @@ If you want a clean install of a new version with new default system files, thes
 
 *This was to ensure updates to a new version does not overwrite previously modified files.*
 
+[Top](#configuration)
+
 ---
 
 ### Firm Folder
@@ -76,6 +80,8 @@ The firm folder must be configured before it can be used. Once configured, defin
 
 > Following Tekla convention, if a configuration is found inside the Firm folder and **not** in the Model folder, this is automatically taken as the active directory.
 
+[Top](#configuration)
+
 ---
 
 ### Model Folder
@@ -91,6 +97,8 @@ Examples include:
 - temporary validation checks
 
 > Following Tekla convention, if a configuration is found inside the Model folder, this is automatically taken as the active directory.
+
+[Top](#configuration)
 
 ---
 
@@ -115,6 +123,8 @@ Many auditing features rely on properly defined column data. Column definitions 
 - which columns can be referenced by audit rules
 
 Because of this, column definitions are typically the **first step when setting up ObChecked**.
+
+[Top](#configuration)
 
 ---
 

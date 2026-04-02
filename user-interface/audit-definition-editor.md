@@ -73,6 +73,10 @@ Nodes can be reordered by **drag-and-drop**.
 
 This applies to all node types **except Subject nodes**, which follow file order.
 
+Re-ordering a node will affect the order in which it is processed. Audits higher up are processed before nodes below.
+
+- Match nodes always work on a first-match basis, so order is critical. 
+- Target nodes are all processed in order, so ApplyMode should be used to determine how latter nodes can affect existing flags.
 
 ## Copy and Paste
 
@@ -82,7 +86,7 @@ This is useful when creating similar rules that only require minor adjustments.
 
 Important notes:
 
-- Nodes can only be pasted into compatible parent types
+- Nodes can only be pasted into adjacent or compatible parent types
 - Duplicate nodes are **not allowed when saving**
 - However duplication during editing is supported so nodes can be copied and modified
 
