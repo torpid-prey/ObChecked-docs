@@ -11,6 +11,8 @@
 
 This page lists documentation, configuration, audit files, and screenshots in the repository.
 
+Head to the [Home Page](index.md) for an ordered site layout suitable for navigation.
+
 ## Configuration
 
 - [Column Definitions (Doc)](configuration/column-definitions.md)
