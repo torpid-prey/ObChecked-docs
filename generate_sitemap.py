@@ -38,14 +38,22 @@ def should_exclude(path: Path) -> bool:
 
     return False
 
+# def path_to_url(rel_path: Path) -> str:
+#     """
+#     Convert a markdown file path into a GitHub Pages URL.
+#     Removes the .md extension.
+#     """
+
+#     url_path = rel_path.as_posix()[:-3]
+
+#     return SITE_BASE + url_path + "/"
+
 
 def path_to_url(rel_path: Path) -> str:
-    """
-    Convert a markdown file path into a GitHub Pages URL.
-    Removes the .md extension.
-    """
-
     url_path = rel_path.as_posix()[:-3]
+
+    if url_path == "index":
+        return SITE_BASE
 
     return SITE_BASE + url_path + "/"
 
