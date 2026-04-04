@@ -11,8 +11,6 @@
 
 This page lists documentation, configuration, audit files, and screenshots in the repository.
 
-Head to the [Home Page](index.md) for an ordered site layout suitable for navigation.
-
 ## Configuration
 
 - [Column Definitions (Doc)](configuration/column-definitions.md)
@@ -87,6 +85,7 @@ Head to the [Home Page](index.md) for an ordered site layout suitable for naviga
 
 ## Screenshots
 
+- [Audit Find Batch Update (Image)](screenshots/audit-find-batch-update.png)
 - [Audit Node Structure (Image)](screenshots/audit-node-structure.png)
 - [Audit Result (Image)](screenshots/audit-result.png)
 - [Btn Fetch (Image)](screenshots/btn-fetch.png)
@@ -128,4 +127,5 @@ Head to the [Home Page](index.md) for an ordered site layout suitable for naviga
 ## User Interface
 
 - [Audit Definition Editor (Doc)](user-interface/audit-definition-editor.md)
+- [Audit Find And Batch Editor (Doc)](user-interface/audit-find-and-batch-editor.md)
 - [Main Window (Doc)](user-interface/main-window.md)

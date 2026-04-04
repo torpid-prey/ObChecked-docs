@@ -7,6 +7,10 @@
 
 # Audit Definition Editor
 
+{% include nav_auditor.html %}
+
+---
+
 The **Audit Definition Editor** is used to create and modify audit rules.  
 Rules are organised in a hierarchical structure that defines how each row in the grid is evaluated.
 
