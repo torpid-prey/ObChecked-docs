@@ -51,6 +51,7 @@ This repository contains documentation and examples for <b>ObChecked</b>
 - User Interface
   - [Main Window](user-interface/main-window.md)
   - [Audit Definition Editor](user-interface/audit-definition-editor.md)
+  - [Audit Find And Batch Editor](user-interface/audit-find-and-batch-editor.md)
 - [Examples](examples/overview.md)
   - [Rule Design Patterns](examples/rule-design-patterns.md)
   - [Profile Rule Examples](examples/profile/overview.md)
