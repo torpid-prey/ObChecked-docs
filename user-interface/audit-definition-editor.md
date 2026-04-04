@@ -75,7 +75,9 @@ The **Add** and **Delete** buttons below the tree provide quick access to these 
 
 Nodes can be reordered by **drag-and-drop**.
 
-This applies to all node types **except Subject nodes**, which follow file order.
+This applies to all node types **except Subject nodes**, which follow file order. 
+
+> In versions later than 2.1.0, a Subject nodes have a `Prefix` property, which alters their alphabetical order without affecting the `SubjectColumn`.
 
 Re-ordering a node will affect the order in which it is processed. Audits higher up are processed before nodes below.
 
