@@ -50,20 +50,12 @@ exclude:
   - generate_sitemap.py
   - .gitkeep
   
-# Plugins supported by GitHub Pages
-plugins:
-  - jekyll-sitemap
-
 # remove .html from web pages
 permalink: pretty
 
 # Social / project links
 github:
   repository_url: https://github.com/torpid-prey/ObChecked-docs
-
-# Sitemap settings
-sitemap:
-  filename: sitemap.xml
 
 # Enable GitHub Pages metadata
 github_metadata: true
