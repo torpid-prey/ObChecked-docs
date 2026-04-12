@@ -5,13 +5,11 @@
 {% include nav.html %}
 </div>
 
-# Audit Definition Editor
+# Find And Batch Editor
 
 {% include nav_auditor.html %}
 
 ---
-
-# Find And Batch Editor
 
 The **Audit Find And Batch Editor** is a tool for locating, inspecting, and modifying audit definition values across multiple nodes in a structured and controlled way.
 
