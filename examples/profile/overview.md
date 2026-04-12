@@ -15,6 +15,8 @@
 
 {% include nav_examples_profiles.html %}
 
+# Overview
+
 ---
 
 The **PROFILE** subject can extract technical properties from the section name. These Profile examples demonstrate how audit rules can be created which all relate to profile strings.
