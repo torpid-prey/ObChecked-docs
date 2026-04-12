@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ObChecked Documentation
-description: Documentation and rule examples for ObChecked — a Tekla model object auditing tool
+description: Documentation and rule examples for ObChecked — a Tekla Structures model object auditing tool
 ---
 
 <div class="sticky-nav">
