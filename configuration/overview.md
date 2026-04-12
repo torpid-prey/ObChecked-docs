@@ -11,6 +11,8 @@
 
 ---
 
+# Overview
+
 ObChecked reads configuration from three locations, in order of increasing specificity:
 
 - [Application Root](#application-root) – inside `Environments\common\`
