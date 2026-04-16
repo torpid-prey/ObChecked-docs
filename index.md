@@ -22,7 +22,7 @@ description: Documentation and rule examples for ObChecked — a Tekla Structure
 Welcome to the documentation for <b>ObChecked</b> <i>Version 2</i>
 <br>
 <br>
-This repository contains documentation and examples for <b>ObChecked</b>
+This repository contains the complete documentation, including concepts and extensive set of audit examples.
 
 </td>
 </tr>
