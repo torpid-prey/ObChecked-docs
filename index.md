@@ -12,7 +12,7 @@ description: Documentation and rule examples for ObChecked — a Tekla Structure
 
 <table>
 <tr>
-<td width="220">
+<td width="230">
 
 <img src="screenshots/obchecked-warehouse.png" width="200" alt="ObChecked Logo">
 
@@ -22,7 +22,7 @@ description: Documentation and rule examples for ObChecked — a Tekla Structure
 Welcome to the documentation for <b>ObChecked</b> <i>Version 2</i>
 <br>
 <br>
-This repository contains the complete documentation, including concepts and extensive set of audit examples.
+This repository contains the complete documentation, including concepts and extensive set of audit examples so .
 
 </td>
 </tr>
