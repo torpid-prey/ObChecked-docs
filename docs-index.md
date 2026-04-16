@@ -97,6 +97,7 @@ This page lists documentation, configuration, audit files, and screenshots in th
 - [Interface Main Window (Image)](screenshots/interface-main-window.png)
 - [Main Context Menu (Image)](screenshots/main-context-menu.png)
 - [Obchecked Logo (Image)](screenshots/obchecked-logo.png)
+- [Obchecked Warehouse (Image)](screenshots/obchecked-warehouse.png)
 - [Regex Match Groups (Image)](screenshots/regex-match-groups.png)
 
 ### Node

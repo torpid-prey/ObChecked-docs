@@ -17,7 +17,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/configuration/overview/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/condition/</loc>
@@ -29,7 +29,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/overview/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/subject/</loc>
@@ -57,11 +57,11 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/core-concepts/target/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/docs-index/</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-16</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/assy-prefix-must-start-with-phase-number/</loc>
@@ -77,7 +77,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/overview/</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/common/phase-others-should-be-empty/</loc>
@@ -97,7 +97,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/overview/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/name/recognised-assembly-name-sets-prefix-and-class/</loc>
@@ -113,7 +113,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/overview/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/chs-fallback-material-rules/</loc>
@@ -141,7 +141,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/overview/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/examples/profile/prefix-by-radius/</loc>
@@ -157,7 +157,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-16</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/overview/</loc>
@@ -173,7 +173,7 @@ layout: null
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/user-interface/audit-find-and-batch-editor/</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://torpid-prey.github.io/ObChecked-docs/user-interface/main-window/</loc>
