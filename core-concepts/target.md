@@ -13,7 +13,7 @@
 
 # Target Node — Overview
 
-{% include nav_concepts_targets.html %}
+{% include nav_concepts_target.html %}
 
 ---
 
